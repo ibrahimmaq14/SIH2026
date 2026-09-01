@@ -1,0 +1,11 @@
+node_modules
+.next
+.git
+__pycache__
+*.pyc
+.env
+.env.local
+Oil-Spill-Detection-in-Marine-Environments-Using-AIS-and-Satellite-Data/AIS Dataset
+Oil-Spill-Detection-in-Marine-Environments-Using-AIS-and-Satellite-Data/SAR Image Dataset
+*.ipynb
+*.pdf
