@@ -1,0 +1,5623 @@
+{
+  "created_at": "2026-09-01T20:22:15.260431+00:00",
+  "run_id": "run-c5d2fb21",
+  "status": "completed",
+  "errors": [],
+  "detection": {
+    "detected": true,
+    "confidence": 0.965,
+    "image_id": "0_0_0_img_0bBRglmdLdC6cFxF_JAV_cls_1.jpg",
+    "acquisition_time": "2021-02-01T12:00:00+00:00",
+    "detection_method": "HistGradientBoostingClassifier texture-classifier (trained)",
+    "source_label": {
+      "dataClass": "model",
+      "description": "Output of a trained classifier (5-fold CV accuracy 0.8746) trained on the repository's 5,630-image SAR dataset."
+    },
+    "model_available": true,
+    "message": null
+  },
+  "characterization": {
+    "detection": {
+      "detected": true,
+      "confidence": 0.965,
+      "image_id": "0_0_0_img_0bBRglmdLdC6cFxF_JAV_cls_1.jpg",
+      "acquisition_time": "2021-02-01T12:00:00+00:00",
+      "detection_method": "HistGradientBoostingClassifier texture-classifier (trained)",
+      "source_label": {
+        "dataClass": "model",
+        "description": "Output of a trained classifier (5-fold CV accuracy 0.8746) trained on the repository's 5,630-image SAR dataset."
+      },
+      "model_available": true,
+      "message": null
+    },
+    "geometry": {
+      "centroid_px": [
+        249.7,
+        249.7
+      ],
+      "bounding_box_px": [
+        240,
+        240,
+        264,
+        264
+      ],
+      "area_px": 448,
+      "perimeter_px": 112.0,
+      "width_px": 8.0,
+      "length_px": 34.2,
+      "aspect_ratio": 4.28,
+      "orientation_deg": 45.0,
+      "geometry_type": "elongated"
+    },
+    "segmentation_method": "weak-adaptive-threshold",
+    "segmentation_note": "Weak, explainable segmentation based on adaptive thresholding of low-texture darker regions. NOT a trained segmentation model \u2014 the repository dataset has no pixel masks. Use as a visual aid only.",
+    "geographic": {
+      "lat": 28.52,
+      "lon": -94.95,
+      "source": "synthetic-demo-anchor"
+    },
+    "acquisition_time": "2021-02-01T12:00:00+00:00",
+    "spill_age_note": "Spill age cannot be estimated from this image. Reported time is the observation/acquisition time only; age estimation is unavailable.",
+    "source_label": {
+      "dataClass": "synthetic",
+      "description": "SAR image is not georeferenced; spill location anchored SYNTHETICALLY inside the real AIS dataset coverage area (Gulf of Mexico) for demonstration."
+    }
+  },
+  "environment": {
+    "samples": [
+      {
+        "timestamp": "2021-02-01T00:00:00+00:00",
+        "lat": 28.52,
+        "lon": -94.95,
+        "current_speed_kmh": 0.636,
+        "current_direction_deg": 222.3,
+        "wind_speed_kmh": 27.0,
+        "wind_direction_deg": 35.6,
+        "wave_height_m": 0.91,
+        "provider": "demo-synthetic",
+        "dataClass": "synthetic"
+      },
+      {
+        "timestamp": "2021-02-01T01:00:00+00:00",
+        "lat": 28.52,
+        "lon": -94.95,
+        "current_speed_kmh": 0.64,
+        "current_direction_deg": 222.0,
+        "wind_speed_kmh": 26.97,
+        "wind_direction_deg": 36.1,
+        "wave_height_m": 0.93,
+        "provider": "demo-synthetic",
+        "dataClass": "synthetic"
+      },
+      {
+        "timestamp": "2021-02-01T02:00:00+00:00",
+        "lat": 28.52,
+        "lon": -94.95,
+        "current_speed_kmh": 0.644,
+        "current_direction_deg": 221.8,
+        "wind_speed_kmh": 26.92,
+        "wind_direction_deg": 36.6,
+        "wave_height_m": 0.96,
+        "provider": "demo-synthetic",
+        "dataClass": "synthetic"
+      },
+      {
+        "timestamp": "2021-02-01T03:00:00+00:00",
+        "lat": 28.52,
+        "lon": -94.95,
+        "current_speed_kmh": 0.648,
+        "current_direction_deg": 221.5,
+        "wind_speed_kmh": 26.84,
+        "wind_direction_deg": 37.0,
+        "wave_height_m": 0.98,
+        "provider": "demo-synthetic",
+        "dataClass": "synthetic"
+      },
+      {
+        "timestamp": "2021-02-01T04:00:00+00:00",
+        "lat": 28.52,
+        "lon": -94.95,
+        "current_speed_kmh": 0.651,
+        "current_direction_deg": 221.3,
+        "wind_speed_kmh": 26.73,
+        "wind_direction_deg": 37.5,
+        "wave_height_m": 1.0,
+        "provider": "demo-synthetic",
+        "dataClass": "synthetic"
+      },
+      {
+        "timestamp": "2021-02-01T05:00:00+00:00",
+        "lat": 28.52,
+        "lon": -94.95,
+        "current_speed_kmh": 0.655,
+        "current_direction_deg": 221.0,
+        "wind_speed_kmh": 26.6,
+        "wind_direction_deg": 38.0,
+        "wave_height_m": 1.02,
+        "provider": "demo-synthetic",
+        "dataClass": "synthetic"
+      },
+      {
+        "timestamp": "2021-02-01T06:00:00+00:00",
+        "lat": 28.52,
+        "lon": -94.95,
+        "current_speed_kmh": 0.658,
+        "current_direction_deg": 220.7,
+        "wind_speed_kmh": 26.44,
+        "wind_direction_deg": 38.5,
+        "wave_height_m": 1.04,
+        "provider": "demo-synthetic",
+        "dataClass": "synthetic"
+      },
+      {
+        "timestamp": "2021-02-01T07:00:00+00:00",
+        "lat": 28.52,
+        "lon": -94.95,
+        "current_speed_kmh": 0.661,
+        "current_direction_deg": 220.4,
+        "wind_speed_kmh": 26.26,
+        "wind_direction_deg": 39.0,
+        "wave_height_m": 1.07,
+        "provider": "demo-synthetic",
+        "dataClass": "synthetic"
+      },
+      {
+        "timestamp": "2021-02-01T08:00:00+00:00",
+        "lat": 28.52,
+        "lon": -94.95,
+        "current_speed_kmh": 0.665,
+        "current_direction_deg": 220.1,
+        "wind_speed_kmh": 26.06,
+        "wind_direction_deg": 39.5,
+        "wave_height_m": 1.09,
+        "provider": "demo-synthetic",
+        "dataClass": "synthetic"
+      },
+      {
+        "timestamp": "2021-02-01T09:00:00+00:00",
+        "lat": 28.52,
+        "lon": -94.95,
+        "current_speed_kmh": 0.668,
+        "current_direction_deg": 219.8,
+        "wind_speed_kmh": 25.83,
+        "wind_direction_deg": 40.0,
+        "wave_height_m": 1.11,
+        "provider": "demo-synthetic",
+        "dataClass": "synthetic"
+      },
+      {
+        "timestamp": "2021-02-01T10:00:00+00:00",
+        "lat": 28.52,
+        "lon": -94.95,
+        "current_speed_kmh": 0.671,
+        "current_direction_deg": 219.5,
+        "wind_speed_kmh": 25.58,
+        "wind_direction_deg": 40.6,
+        "wave_height_m": 1.13,
+        "provider": "demo-synthetic",
+        "dataClass": "synthetic"
+      },
+      {
+        "timestamp": "2021-02-01T11:00:00+00:00",
+        "lat": 28.52,
+        "lon": -94.95,
+        "current_speed_kmh": 0.673,
+        "current_direction_deg": 219.1,
+        "wind_speed_kmh": 25.3,
+        "wind_direction_deg": 41.1,
+        "wave_height_m": 1.16,
+        "provider": "demo-synthetic",
+        "dataClass": "synthetic"
+      },
+      {
+        "timestamp": "2021-02-01T12:00:00+00:00",
+        "lat": 28.52,
+        "lon": -94.95,
+        "current_speed_kmh": 0.676,
+        "current_direction_deg": 218.8,
+        "wind_speed_kmh": 25.01,
+        "wind_direction_deg": 41.6,
+        "wave_height_m": 1.18,
+        "provider": "demo-synthetic",
+        "dataClass": "synthetic"
+      },
+      {
+        "timestamp": "2021-02-01T13:00:00+00:00",
+        "lat": 28.52,
+        "lon": -94.95,
+        "current_speed_kmh": 0.678,
+        "current_direction_deg": 218.4,
+        "wind_speed_kmh": 24.69,
+        "wind_direction_deg": 42.2,
+        "wave_height_m": 1.2,
+        "provider": "demo-synthetic",
+        "dataClass": "synthetic"
+      },
+      {
+        "timestamp": "2021-02-01T14:00:00+00:00",
+        "lat": 28.52,
+        "lon": -94.95,
+        "current_speed_kmh": 0.681,
+        "current_direction_deg": 218.1,
+        "wind_speed_kmh": 24.35,
+        "wind_direction_deg": 42.7,
+        "wave_height_m": 1.22,
+        "provider": "demo-synthetic",
+        "dataClass": "synthetic"
+      },
+      {
+        "timestamp": "2021-02-01T15:00:00+00:00",
+        "lat": 28.52,
+        "lon": -94.95,
+        "current_speed_kmh": 0.683,
+        "current_direction_deg": 217.7,
+        "wind_speed_kmh": 24.0,
+        "wind_direction_deg": 43.3,
+        "wave_height_m": 1.24,
+        "provider": "demo-synthetic",
+        "dataClass": "synthetic"
+      },
+      {
+        "timestamp": "2021-02-01T16:00:00+00:00",
+        "lat": 28.52,
+        "lon": -94.95,
+        "current_speed_kmh": 0.685,
+        "current_direction_deg": 217.4,
+        "wind_speed_kmh": 23.63,
+        "wind_direction_deg": 43.8,
+        "wave_height_m": 1.27,
+        "provider": "demo-synthetic",
+        "dataClass": "synthetic"
+      },
+      {
+        "timestamp": "2021-02-01T17:00:00+00:00",
+        "lat": 28.52,
+        "lon": -94.95,
+        "current_speed_kmh": 0.687,
+        "current_direction_deg": 217.0,
+        "wind_speed_kmh": 23.24,
+        "wind_direction_deg": 44.4,
+        "wave_height_m": 1.29,
+        "provider": "demo-synthetic",
+        "dataClass": "synthetic"
+      },
+      {
+        "timestamp": "2021-02-01T18:00:00+00:00",
+        "lat": 28.52,
+        "lon": -94.95,
+        "current_speed_kmh": 0.689,
+        "current_direction_deg": 216.6,
+        "wind_speed_kmh": 22.83,
+        "wind_direction_deg": 45.0,
+        "wave_height_m": 1.31,
+        "provider": "demo-synthetic",
+        "dataClass": "synthetic"
+      }
+    ],
+    "provider": "demo-synthetic",
+    "dataClass": "synthetic",
+    "note": "SYNTHETIC demo environmental data (deterministic pseudo-field). NOT real measurements \u2014 used because the real provider was unreachable or DEMO_MODE is enabled."
+  },
+  "hindcast": {
+    "request": {
+      "lat": 28.52,
+      "lon": -94.95,
+      "start_time": "2021-02-01T12:00:00+00:00",
+      "duration_hours": 12.0,
+      "timestep_minutes": 60,
+      "windage": 0.03,
+      "use_demo_environment": true,
+      "ensemble_members": 40
+    },
+    "track": {
+      "points": [
+        {
+          "timestamp": "2021-02-01T12:00:00+00:00",
+          "lat": 28.52,
+          "lon": -94.95,
+          "current_speed_kmh": 0.676,
+          "current_direction_deg": 218.8,
+          "wind_speed_kmh": 25.01,
+          "wind_direction_deg": 41.6,
+          "drift_speed_kmh": 0.291,
+          "drift_direction_deg": 125.7,
+          "displacement_km": 0.291,
+          "cumulative_km": 0.0
+        },
+        {
+          "timestamp": "2021-02-01T11:00:00+00:00",
+          "lat": 28.52153,
+          "lon": -94.95242,
+          "current_speed_kmh": 0.673,
+          "current_direction_deg": 219.1,
+          "wind_speed_kmh": 25.3,
+          "wind_direction_deg": 41.1,
+          "drift_speed_kmh": 0.286,
+          "drift_direction_deg": 122.9,
+          "displacement_km": 0.286,
+          "cumulative_km": 0.291
+        },
+        {
+          "timestamp": "2021-02-01T10:00:00+00:00",
+          "lat": 28.52293,
+          "lon": -94.95488,
+          "current_speed_kmh": 0.671,
+          "current_direction_deg": 219.5,
+          "wind_speed_kmh": 25.58,
+          "wind_direction_deg": 40.6,
+          "drift_speed_kmh": 0.28,
+          "drift_direction_deg": 120.3,
+          "displacement_km": 0.28,
+          "cumulative_km": 0.577
+        },
+        {
+          "timestamp": "2021-02-01T09:00:00+00:00",
+          "lat": 28.5242,
+          "lon": -94.95735,
+          "current_speed_kmh": 0.668,
+          "current_direction_deg": 219.8,
+          "wind_speed_kmh": 25.83,
+          "wind_direction_deg": 40.0,
+          "drift_speed_kmh": 0.274,
+          "drift_direction_deg": 117.3,
+          "displacement_km": 0.274,
+          "cumulative_km": 0.857
+        },
+        {
+          "timestamp": "2021-02-01T08:00:00+00:00",
+          "lat": 28.52533,
+          "lon": -94.95984,
+          "current_speed_kmh": 0.665,
+          "current_direction_deg": 220.1,
+          "wind_speed_kmh": 26.06,
+          "wind_direction_deg": 39.5,
+          "drift_speed_kmh": 0.27,
+          "drift_direction_deg": 114.5,
+          "displacement_km": 0.27,
+          "cumulative_km": 1.131
+        },
+        {
+          "timestamp": "2021-02-01T07:00:00+00:00",
+          "lat": 28.52633,
+          "lon": -94.96235,
+          "current_speed_kmh": 0.661,
+          "current_direction_deg": 220.4,
+          "wind_speed_kmh": 26.26,
+          "wind_direction_deg": 39.0,
+          "drift_speed_kmh": 0.265,
+          "drift_direction_deg": 111.6,
+          "displacement_km": 0.265,
+          "cumulative_km": 1.401
+        },
+        {
+          "timestamp": "2021-02-01T06:00:00+00:00",
+          "lat": 28.52721,
+          "lon": -94.96488,
+          "current_speed_kmh": 0.658,
+          "current_direction_deg": 220.7,
+          "wind_speed_kmh": 26.44,
+          "wind_direction_deg": 38.5,
+          "drift_speed_kmh": 0.261,
+          "drift_direction_deg": 108.9,
+          "displacement_km": 0.261,
+          "cumulative_km": 1.666
+        },
+        {
+          "timestamp": "2021-02-01T05:00:00+00:00",
+          "lat": 28.52797,
+          "lon": -94.96741,
+          "current_speed_kmh": 0.655,
+          "current_direction_deg": 221.0,
+          "wind_speed_kmh": 26.6,
+          "wind_direction_deg": 38.0,
+          "drift_speed_kmh": 0.257,
+          "drift_direction_deg": 106.1,
+          "displacement_km": 0.257,
+          "cumulative_km": 1.927
+        },
+        {
+          "timestamp": "2021-02-01T04:00:00+00:00",
+          "lat": 28.52861,
+          "lon": -94.96994,
+          "current_speed_kmh": 0.651,
+          "current_direction_deg": 221.3,
+          "wind_speed_kmh": 26.73,
+          "wind_direction_deg": 37.5,
+          "drift_speed_kmh": 0.253,
+          "drift_direction_deg": 103.3,
+          "displacement_km": 0.253,
+          "cumulative_km": 2.185
+        },
+        {
+          "timestamp": "2021-02-01T03:00:00+00:00",
+          "lat": 28.52914,
+          "lon": -94.97247,
+          "current_speed_kmh": 0.648,
+          "current_direction_deg": 221.5,
+          "wind_speed_kmh": 26.84,
+          "wind_direction_deg": 37.0,
+          "drift_speed_kmh": 0.25,
+          "drift_direction_deg": 100.8,
+          "displacement_km": 0.25,
+          "cumulative_km": 2.438
+        },
+        {
+          "timestamp": "2021-02-01T02:00:00+00:00",
+          "lat": 28.52956,
+          "lon": -94.97498,
+          "current_speed_kmh": 0.644,
+          "current_direction_deg": 221.8,
+          "wind_speed_kmh": 26.92,
+          "wind_direction_deg": 36.6,
+          "drift_speed_kmh": 0.248,
+          "drift_direction_deg": 98.2,
+          "displacement_km": 0.248,
+          "cumulative_km": 2.688
+        },
+        {
+          "timestamp": "2021-02-01T01:00:00+00:00",
+          "lat": 28.52988,
+          "lon": -94.97749,
+          "current_speed_kmh": 0.64,
+          "current_direction_deg": 222.0,
+          "wind_speed_kmh": 26.97,
+          "wind_direction_deg": 36.1,
+          "drift_speed_kmh": 0.245,
+          "drift_direction_deg": 95.7,
+          "displacement_km": 0.245,
+          "cumulative_km": 2.936
+        },
+        {
+          "timestamp": "2021-02-01T00:00:00+00:00",
+          "lat": 28.53009,
+          "lon": -94.97998,
+          "current_speed_kmh": 0.636,
+          "current_direction_deg": 222.3,
+          "wind_speed_kmh": 27.0,
+          "wind_direction_deg": 35.6,
+          "drift_speed_kmh": 0.241,
+          "drift_direction_deg": 93.0,
+          "displacement_km": 0.0,
+          "cumulative_km": 3.18
+        }
+      ]
+    },
+    "origin_location": {
+      "lat": 28.53009,
+      "lon": -94.97998
+    },
+    "origin_time": "2021-02-01T00:00:00+00:00",
+    "estimated_release_window_hours": 12.0,
+    "uncertainty_radius_km": 1.88,
+    "confidence": 0.48,
+    "environment": {
+      "samples": [
+        {
+          "timestamp": "2021-02-01T00:00:00+00:00",
+          "lat": 28.52,
+          "lon": -94.95,
+          "current_speed_kmh": 0.636,
+          "current_direction_deg": 222.3,
+          "wind_speed_kmh": 27.0,
+          "wind_direction_deg": 35.6,
+          "wave_height_m": 0.91,
+          "provider": "demo-synthetic",
+          "dataClass": "synthetic"
+        },
+        {
+          "timestamp": "2021-02-01T01:00:00+00:00",
+          "lat": 28.52,
+          "lon": -94.95,
+          "current_speed_kmh": 0.64,
+          "current_direction_deg": 222.0,
+          "wind_speed_kmh": 26.97,
+          "wind_direction_deg": 36.1,
+          "wave_height_m": 0.93,
+          "provider": "demo-synthetic",
+          "dataClass": "synthetic"
+        },
+        {
+          "timestamp": "2021-02-01T02:00:00+00:00",
+          "lat": 28.52,
+          "lon": -94.95,
+          "current_speed_kmh": 0.644,
+          "current_direction_deg": 221.8,
+          "wind_speed_kmh": 26.92,
+          "wind_direction_deg": 36.6,
+          "wave_height_m": 0.96,
+          "provider": "demo-synthetic",
+          "dataClass": "synthetic"
+        },
+        {
+          "timestamp": "2021-02-01T03:00:00+00:00",
+          "lat": 28.52,
+          "lon": -94.95,
+          "current_speed_kmh": 0.648,
+          "current_direction_deg": 221.5,
+          "wind_speed_kmh": 26.84,
+          "wind_direction_deg": 37.0,
+          "wave_height_m": 0.98,
+          "provider": "demo-synthetic",
+          "dataClass": "synthetic"
+        },
+        {
+          "timestamp": "2021-02-01T04:00:00+00:00",
+          "lat": 28.52,
+          "lon": -94.95,
+          "current_speed_kmh": 0.651,
+          "current_direction_deg": 221.3,
+          "wind_speed_kmh": 26.73,
+          "wind_direction_deg": 37.5,
+          "wave_height_m": 1.0,
+          "provider": "demo-synthetic",
+          "dataClass": "synthetic"
+        },
+        {
+          "timestamp": "2021-02-01T05:00:00+00:00",
+          "lat": 28.52,
+          "lon": -94.95,
+          "current_speed_kmh": 0.655,
+          "current_direction_deg": 221.0,
+          "wind_speed_kmh": 26.6,
+          "wind_direction_deg": 38.0,
+          "wave_height_m": 1.02,
+          "provider": "demo-synthetic",
+          "dataClass": "synthetic"
+        },
+        {
+          "timestamp": "2021-02-01T06:00:00+00:00",
+          "lat": 28.52,
+          "lon": -94.95,
+          "current_speed_kmh": 0.658,
+          "current_direction_deg": 220.7,
+          "wind_speed_kmh": 26.44,
+          "wind_direction_deg": 38.5,
+          "wave_height_m": 1.04,
+          "provider": "demo-synthetic",
+          "dataClass": "synthetic"
+        },
+        {
+          "timestamp": "2021-02-01T07:00:00+00:00",
+          "lat": 28.52,
+          "lon": -94.95,
+          "current_speed_kmh": 0.661,
+          "current_direction_deg": 220.4,
+          "wind_speed_kmh": 26.26,
+          "wind_direction_deg": 39.0,
+          "wave_height_m": 1.07,
+          "provider": "demo-synthetic",
+          "dataClass": "synthetic"
+        },
+        {
+          "timestamp": "2021-02-01T08:00:00+00:00",
+          "lat": 28.52,
+          "lon": -94.95,
+          "current_speed_kmh": 0.665,
+          "current_direction_deg": 220.1,
+          "wind_speed_kmh": 26.06,
+          "wind_direction_deg": 39.5,
+          "wave_height_m": 1.09,
+          "provider": "demo-synthetic",
+          "dataClass": "synthetic"
+        },
+        {
+          "timestamp": "2021-02-01T09:00:00+00:00",
+          "lat": 28.52,
+          "lon": -94.95,
+          "current_speed_kmh": 0.668,
+          "current_direction_deg": 219.8,
+          "wind_speed_kmh": 25.83,
+          "wind_direction_deg": 40.0,
+          "wave_height_m": 1.11,
+          "provider": "demo-synthetic",
+          "dataClass": "synthetic"
+        },
+        {
+          "timestamp": "2021-02-01T10:00:00+00:00",
+          "lat": 28.52,
+          "lon": -94.95,
+          "current_speed_kmh": 0.671,
+          "current_direction_deg": 219.5,
+          "wind_speed_kmh": 25.58,
+          "wind_direction_deg": 40.6,
+          "wave_height_m": 1.13,
+          "provider": "demo-synthetic",
+          "dataClass": "synthetic"
+        },
+        {
+          "timestamp": "2021-02-01T11:00:00+00:00",
+          "lat": 28.52,
+          "lon": -94.95,
+          "current_speed_kmh": 0.673,
+          "current_direction_deg": 219.1,
+          "wind_speed_kmh": 25.3,
+          "wind_direction_deg": 41.1,
+          "wave_height_m": 1.16,
+          "provider": "demo-synthetic",
+          "dataClass": "synthetic"
+        },
+        {
+          "timestamp": "2021-02-01T12:00:00+00:00",
+          "lat": 28.52,
+          "lon": -94.95,
+          "current_speed_kmh": 0.676,
+          "current_direction_deg": 218.8,
+          "wind_speed_kmh": 25.01,
+          "wind_direction_deg": 41.6,
+          "wave_height_m": 1.18,
+          "provider": "demo-synthetic",
+          "dataClass": "synthetic"
+        },
+        {
+          "timestamp": "2021-02-01T13:00:00+00:00",
+          "lat": 28.52,
+          "lon": -94.95,
+          "current_speed_kmh": 0.678,
+          "current_direction_deg": 218.4,
+          "wind_speed_kmh": 24.69,
+          "wind_direction_deg": 42.2,
+          "wave_height_m": 1.2,
+          "provider": "demo-synthetic",
+          "dataClass": "synthetic"
+        },
+        {
+          "timestamp": "2021-02-01T14:00:00+00:00",
+          "lat": 28.52,
+          "lon": -94.95,
+          "current_speed_kmh": 0.681,
+          "current_direction_deg": 218.1,
+          "wind_speed_kmh": 24.35,
+          "wind_direction_deg": 42.7,
+          "wave_height_m": 1.22,
+          "provider": "demo-synthetic",
+          "dataClass": "synthetic"
+        },
+        {
+          "timestamp": "2021-02-01T15:00:00+00:00",
+          "lat": 28.52,
+          "lon": -94.95,
+          "current_speed_kmh": 0.683,
+          "current_direction_deg": 217.7,
+          "wind_speed_kmh": 24.0,
+          "wind_direction_deg": 43.3,
+          "wave_height_m": 1.24,
+          "provider": "demo-synthetic",
+          "dataClass": "synthetic"
+        },
+        {
+          "timestamp": "2021-02-01T16:00:00+00:00",
+          "lat": 28.52,
+          "lon": -94.95,
+          "current_speed_kmh": 0.685,
+          "current_direction_deg": 217.4,
+          "wind_speed_kmh": 23.63,
+          "wind_direction_deg": 43.8,
+          "wave_height_m": 1.27,
+          "provider": "demo-synthetic",
+          "dataClass": "synthetic"
+        },
+        {
+          "timestamp": "2021-02-01T17:00:00+00:00",
+          "lat": 28.52,
+          "lon": -94.95,
+          "current_speed_kmh": 0.687,
+          "current_direction_deg": 217.0,
+          "wind_speed_kmh": 23.24,
+          "wind_direction_deg": 44.4,
+          "wave_height_m": 1.29,
+          "provider": "demo-synthetic",
+          "dataClass": "synthetic"
+        },
+        {
+          "timestamp": "2021-02-01T18:00:00+00:00",
+          "lat": 28.52,
+          "lon": -94.95,
+          "current_speed_kmh": 0.689,
+          "current_direction_deg": 216.6,
+          "wind_speed_kmh": 22.83,
+          "wind_direction_deg": 45.0,
+          "wave_height_m": 1.31,
+          "provider": "demo-synthetic",
+          "dataClass": "synthetic"
+        }
+      ],
+      "provider": "demo-synthetic",
+      "dataClass": "synthetic",
+      "note": "SYNTHETIC demo environmental data (deterministic pseudo-field). NOT real measurements \u2014 used because the real provider was unreachable or DEMO_MODE is enabled."
+    },
+    "method": "Time-reversed advection (Euler, backward): the observed slick is stepped backwards using drift = current + windage*wind with 40-member perturbed ensemble for uncertainty.",
+    "disclaimer": "The estimated origin is a MODEL ESTIMATE, not a guaranteed fact. Real spills spread, weather and dissipate; this simple advection hindcast carries significant uncertainty.",
+    "source_label": {
+      "dataClass": "synthetic",
+      "description": "Backward drift simulation. Environmental forcing: SYNTHETIC demo environmental data (deterministic pseudo-field). NOT real measurements \u2014 used because the real provider was unreachable or DEMO_MODE is enabled."
+    }
+  },
+  "forecast": {
+    "request": {
+      "lat": 28.52,
+      "lon": -94.95,
+      "start_time": "2021-02-01T12:00:00+00:00",
+      "duration_hours": 6.0,
+      "timestep_minutes": 60,
+      "windage": 0.03,
+      "use_demo_environment": true,
+      "ensemble_members": 40
+    },
+    "track": {
+      "points": [
+        {
+          "timestamp": "2021-02-01T12:00:00+00:00",
+          "lat": 28.52,
+          "lon": -94.95,
+          "current_speed_kmh": 0.676,
+          "current_direction_deg": 218.8,
+          "wind_speed_kmh": 25.01,
+          "wind_direction_deg": 41.6,
+          "drift_speed_kmh": 0.291,
+          "drift_direction_deg": 125.7,
+          "displacement_km": 0.291,
+          "cumulative_km": 0.0
+        },
+        {
+          "timestamp": "2021-02-01T13:00:00+00:00",
+          "lat": 28.51847,
+          "lon": -94.94758,
+          "current_speed_kmh": 0.678,
+          "current_direction_deg": 218.4,
+          "wind_speed_kmh": 24.69,
+          "wind_direction_deg": 42.2,
+          "drift_speed_kmh": 0.299,
+          "drift_direction_deg": 128.5,
+          "displacement_km": 0.299,
+          "cumulative_km": 0.291
+        },
+        {
+          "timestamp": "2021-02-01T14:00:00+00:00",
+          "lat": 28.5168,
+          "lon": -94.94518,
+          "current_speed_kmh": 0.681,
+          "current_direction_deg": 218.1,
+          "wind_speed_kmh": 24.35,
+          "wind_direction_deg": 42.7,
+          "drift_speed_kmh": 0.305,
+          "drift_direction_deg": 131.3,
+          "displacement_km": 0.305,
+          "cumulative_km": 0.59
+        },
+        {
+          "timestamp": "2021-02-01T15:00:00+00:00",
+          "lat": 28.51499,
+          "lon": -94.94284,
+          "current_speed_kmh": 0.683,
+          "current_direction_deg": 217.7,
+          "wind_speed_kmh": 24.0,
+          "wind_direction_deg": 43.3,
+          "drift_speed_kmh": 0.313,
+          "drift_direction_deg": 133.9,
+          "displacement_km": 0.313,
+          "cumulative_km": 0.895
+        },
+        {
+          "timestamp": "2021-02-01T16:00:00+00:00",
+          "lat": 28.51304,
+          "lon": -94.94053,
+          "current_speed_kmh": 0.685,
+          "current_direction_deg": 217.4,
+          "wind_speed_kmh": 23.63,
+          "wind_direction_deg": 43.8,
+          "drift_speed_kmh": 0.319,
+          "drift_direction_deg": 136.4,
+          "displacement_km": 0.319,
+          "cumulative_km": 1.208
+        },
+        {
+          "timestamp": "2021-02-01T17:00:00+00:00",
+          "lat": 28.51096,
+          "lon": -94.93828,
+          "current_speed_kmh": 0.687,
+          "current_direction_deg": 217.0,
+          "wind_speed_kmh": 23.24,
+          "wind_direction_deg": 44.4,
+          "drift_speed_kmh": 0.328,
+          "drift_direction_deg": 139.0,
+          "displacement_km": 0.328,
+          "cumulative_km": 1.527
+        },
+        {
+          "timestamp": "2021-02-01T18:00:00+00:00",
+          "lat": 28.50874,
+          "lon": -94.93608,
+          "current_speed_kmh": 0.689,
+          "current_direction_deg": 216.6,
+          "wind_speed_kmh": 22.83,
+          "wind_direction_deg": 45.0,
+          "drift_speed_kmh": 0.337,
+          "drift_direction_deg": 141.5,
+          "displacement_km": 0.0,
+          "cumulative_km": 1.855
+        }
+      ]
+    },
+    "end_position": {
+      "lat": 28.50874,
+      "lon": -94.93608
+    },
+    "total_displacement_km": 1.849,
+    "uncertainty_radius_km": 1.0,
+    "environment": {
+      "samples": [
+        {
+          "timestamp": "2021-02-01T00:00:00+00:00",
+          "lat": 28.52,
+          "lon": -94.95,
+          "current_speed_kmh": 0.636,
+          "current_direction_deg": 222.3,
+          "wind_speed_kmh": 27.0,
+          "wind_direction_deg": 35.6,
+          "wave_height_m": 0.91,
+          "provider": "demo-synthetic",
+          "dataClass": "synthetic"
+        },
+        {
+          "timestamp": "2021-02-01T01:00:00+00:00",
+          "lat": 28.52,
+          "lon": -94.95,
+          "current_speed_kmh": 0.64,
+          "current_direction_deg": 222.0,
+          "wind_speed_kmh": 26.97,
+          "wind_direction_deg": 36.1,
+          "wave_height_m": 0.93,
+          "provider": "demo-synthetic",
+          "dataClass": "synthetic"
+        },
+        {
+          "timestamp": "2021-02-01T02:00:00+00:00",
+          "lat": 28.52,
+          "lon": -94.95,
+          "current_speed_kmh": 0.644,
+          "current_direction_deg": 221.8,
+          "wind_speed_kmh": 26.92,
+          "wind_direction_deg": 36.6,
+          "wave_height_m": 0.96,
+          "provider": "demo-synthetic",
+          "dataClass": "synthetic"
+        },
+        {
+          "timestamp": "2021-02-01T03:00:00+00:00",
+          "lat": 28.52,
+          "lon": -94.95,
+          "current_speed_kmh": 0.648,
+          "current_direction_deg": 221.5,
+          "wind_speed_kmh": 26.84,
+          "wind_direction_deg": 37.0,
+          "wave_height_m": 0.98,
+          "provider": "demo-synthetic",
+          "dataClass": "synthetic"
+        },
+        {
+          "timestamp": "2021-02-01T04:00:00+00:00",
+          "lat": 28.52,
+          "lon": -94.95,
+          "current_speed_kmh": 0.651,
+          "current_direction_deg": 221.3,
+          "wind_speed_kmh": 26.73,
+          "wind_direction_deg": 37.5,
+          "wave_height_m": 1.0,
+          "provider": "demo-synthetic",
+          "dataClass": "synthetic"
+        },
+        {
+          "timestamp": "2021-02-01T05:00:00+00:00",
+          "lat": 28.52,
+          "lon": -94.95,
+          "current_speed_kmh": 0.655,
+          "current_direction_deg": 221.0,
+          "wind_speed_kmh": 26.6,
+          "wind_direction_deg": 38.0,
+          "wave_height_m": 1.02,
+          "provider": "demo-synthetic",
+          "dataClass": "synthetic"
+        },
+        {
+          "timestamp": "2021-02-01T06:00:00+00:00",
+          "lat": 28.52,
+          "lon": -94.95,
+          "current_speed_kmh": 0.658,
+          "current_direction_deg": 220.7,
+          "wind_speed_kmh": 26.44,
+          "wind_direction_deg": 38.5,
+          "wave_height_m": 1.04,
+          "provider": "demo-synthetic",
+          "dataClass": "synthetic"
+        },
+        {
+          "timestamp": "2021-02-01T07:00:00+00:00",
+          "lat": 28.52,
+          "lon": -94.95,
+          "current_speed_kmh": 0.661,
+          "current_direction_deg": 220.4,
+          "wind_speed_kmh": 26.26,
+          "wind_direction_deg": 39.0,
+          "wave_height_m": 1.07,
+          "provider": "demo-synthetic",
+          "dataClass": "synthetic"
+        },
+        {
+          "timestamp": "2021-02-01T08:00:00+00:00",
+          "lat": 28.52,
+          "lon": -94.95,
+          "current_speed_kmh": 0.665,
+          "current_direction_deg": 220.1,
+          "wind_speed_kmh": 26.06,
+          "wind_direction_deg": 39.5,
+          "wave_height_m": 1.09,
+          "provider": "demo-synthetic",
+          "dataClass": "synthetic"
+        },
+        {
+          "timestamp": "2021-02-01T09:00:00+00:00",
+          "lat": 28.52,
+          "lon": -94.95,
+          "current_speed_kmh": 0.668,
+          "current_direction_deg": 219.8,
+          "wind_speed_kmh": 25.83,
+          "wind_direction_deg": 40.0,
+          "wave_height_m": 1.11,
+          "provider": "demo-synthetic",
+          "dataClass": "synthetic"
+        },
+        {
+          "timestamp": "2021-02-01T10:00:00+00:00",
+          "lat": 28.52,
+          "lon": -94.95,
+          "current_speed_kmh": 0.671,
+          "current_direction_deg": 219.5,
+          "wind_speed_kmh": 25.58,
+          "wind_direction_deg": 40.6,
+          "wave_height_m": 1.13,
+          "provider": "demo-synthetic",
+          "dataClass": "synthetic"
+        },
+        {
+          "timestamp": "2021-02-01T11:00:00+00:00",
+          "lat": 28.52,
+          "lon": -94.95,
+          "current_speed_kmh": 0.673,
+          "current_direction_deg": 219.1,
+          "wind_speed_kmh": 25.3,
+          "wind_direction_deg": 41.1,
+          "wave_height_m": 1.16,
+          "provider": "demo-synthetic",
+          "dataClass": "synthetic"
+        },
+        {
+          "timestamp": "2021-02-01T12:00:00+00:00",
+          "lat": 28.52,
+          "lon": -94.95,
+          "current_speed_kmh": 0.676,
+          "current_direction_deg": 218.8,
+          "wind_speed_kmh": 25.01,
+          "wind_direction_deg": 41.6,
+          "wave_height_m": 1.18,
+          "provider": "demo-synthetic",
+          "dataClass": "synthetic"
+        },
+        {
+          "timestamp": "2021-02-01T13:00:00+00:00",
+          "lat": 28.52,
+          "lon": -94.95,
+          "current_speed_kmh": 0.678,
+          "current_direction_deg": 218.4,
+          "wind_speed_kmh": 24.69,
+          "wind_direction_deg": 42.2,
+          "wave_height_m": 1.2,
+          "provider": "demo-synthetic",
+          "dataClass": "synthetic"
+        },
+        {
+          "timestamp": "2021-02-01T14:00:00+00:00",
+          "lat": 28.52,
+          "lon": -94.95,
+          "current_speed_kmh": 0.681,
+          "current_direction_deg": 218.1,
+          "wind_speed_kmh": 24.35,
+          "wind_direction_deg": 42.7,
+          "wave_height_m": 1.22,
+          "provider": "demo-synthetic",
+          "dataClass": "synthetic"
+        },
+        {
+          "timestamp": "2021-02-01T15:00:00+00:00",
+          "lat": 28.52,
+          "lon": -94.95,
+          "current_speed_kmh": 0.683,
+          "current_direction_deg": 217.7,
+          "wind_speed_kmh": 24.0,
+          "wind_direction_deg": 43.3,
+          "wave_height_m": 1.24,
+          "provider": "demo-synthetic",
+          "dataClass": "synthetic"
+        },
+        {
+          "timestamp": "2021-02-01T16:00:00+00:00",
+          "lat": 28.52,
+          "lon": -94.95,
+          "current_speed_kmh": 0.685,
+          "current_direction_deg": 217.4,
+          "wind_speed_kmh": 23.63,
+          "wind_direction_deg": 43.8,
+          "wave_height_m": 1.27,
+          "provider": "demo-synthetic",
+          "dataClass": "synthetic"
+        },
+        {
+          "timestamp": "2021-02-01T17:00:00+00:00",
+          "lat": 28.52,
+          "lon": -94.95,
+          "current_speed_kmh": 0.687,
+          "current_direction_deg": 217.0,
+          "wind_speed_kmh": 23.24,
+          "wind_direction_deg": 44.4,
+          "wave_height_m": 1.29,
+          "provider": "demo-synthetic",
+          "dataClass": "synthetic"
+        },
+        {
+          "timestamp": "2021-02-01T18:00:00+00:00",
+          "lat": 28.52,
+          "lon": -94.95,
+          "current_speed_kmh": 0.689,
+          "current_direction_deg": 216.6,
+          "wind_speed_kmh": 22.83,
+          "wind_direction_deg": 45.0,
+          "wave_height_m": 1.31,
+          "provider": "demo-synthetic",
+          "dataClass": "synthetic"
+        }
+      ],
+      "provider": "demo-synthetic",
+      "dataClass": "synthetic",
+      "note": "SYNTHETIC demo environmental data (deterministic pseudo-field). NOT real measurements \u2014 used because the real provider was unreachable or DEMO_MODE is enabled."
+    },
+    "method": "Euler forward advection: drift = current + windage*wind (windage=0.03, dt=60min, 40-member ensemble)",
+    "source_label": {
+      "dataClass": "synthetic",
+      "description": "Physically-based drift simulation. Environmental forcing: SYNTHETIC demo environmental data (deterministic pseudo-field). NOT real measurements \u2014 used because the real provider was unreachable or DEMO_MODE is enabled."
+    }
+  },
+  "attribution": {
+    "candidates": [
+      {
+        "rank": 1,
+        "mmsi": 636019358,
+        "vesselName": "KALAHARI",
+        "vesselType": 80.0,
+        "score": 69.8,
+        "score_components": {
+          "spatial": 50.0,
+          "temporal": 78.2,
+          "trajectory": 100.0,
+          "behaviour": 35.0,
+          "data_quality": 100.0
+        },
+        "min_distance_km": 8.437,
+        "time_diff_hours": 2.61,
+        "trajectory_features": {
+          "min_distance_to_origin_km": 8.437,
+          "distance_at_release_km": 10.048,
+          "min_distance_time": "2021-02-01T02:36:49+00:00",
+          "time_diff_from_release_hours": 2.61,
+          "mean_speed_knots": 12.7,
+          "max_speed_knots": 13.0,
+          "course_at_min_distance": 121.2,
+          "speed_at_min_distance": 12.3,
+          "heading_changes_deg": 70.3,
+          "speed_changes_knots": 3.5,
+          "dwell_minutes_near_origin": 39.0,
+          "approach_bearing_deg": 128.9,
+          "departure_bearing_deg": 104.9,
+          "passes_within_radius": true,
+          "time_near_origin_minutes": 39.0,
+          "route_deviation_score": 0.614
+        },
+        "behaviour": {
+          "anomaly_score": 35.0,
+          "anomaly_flags": [
+            "Extended presence: 39 min near estimated origin",
+            "Route deviation: vessel track bends toward the estimated origin"
+          ],
+          "svr_anomalies_in_window": 0,
+          "dbscan_cluster_label": null,
+          "dbscan_noise_points": 0,
+          "methodology": "Rule-based interpretable anomaly indicators + SVR speed anomaly detection (notebook methodology) within the window."
+        },
+        "evidence": [
+          "Trajectory passes through the estimated origin region"
+        ],
+        "filter_reasons": [
+          "Passed within 8.44 km of estimated origin during the release window"
+        ],
+        "confidence": 0.88,
+        "track": [
+          {
+            "lat": 28.62001,
+            "lon": -94.96979,
+            "sog": 12.9,
+            "cog": 137.6,
+            "heading": 137.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T02:29:29+00:00"
+          },
+          {
+            "lat": 28.61644,
+            "lon": -94.96608,
+            "sog": 12.9,
+            "cog": 137.3,
+            "heading": 137.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T02:30:49+00:00"
+          },
+          {
+            "lat": 28.61334,
+            "lon": -94.96286,
+            "sog": 12.9,
+            "cog": 137.5,
+            "heading": 137.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T02:31:59+00:00"
+          },
+          {
+            "lat": 28.61024,
+            "lon": -94.95967,
+            "sog": 13.0,
+            "cog": 137.7,
+            "heading": 137.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T02:33:09+00:00"
+          },
+          {
+            "lat": 28.60672,
+            "lon": -94.95604,
+            "sog": 13.0,
+            "cog": 137.8,
+            "heading": 137.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T02:34:28+00:00"
+          },
+          {
+            "lat": 28.60357,
+            "lon": -94.95284,
+            "sog": 12.9,
+            "cog": 138.1,
+            "heading": 129.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T02:35:39+00:00"
+          },
+          {
+            "lat": 28.60099,
+            "lon": -94.9492,
+            "sog": 12.3,
+            "cog": 121.2,
+            "heading": 104.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T02:36:49+00:00"
+          },
+          {
+            "lat": 28.60004,
+            "lon": -94.94514,
+            "sog": 11.4,
+            "cog": 98.0,
+            "heading": 91.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T02:37:58+00:00"
+          },
+          {
+            "lat": 28.59991,
+            "lon": -94.94098,
+            "sog": 11.5,
+            "cog": 89.6,
+            "heading": 88.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T02:39:08+00:00"
+          },
+          {
+            "lat": 28.59993,
+            "lon": -94.93662,
+            "sog": 11.7,
+            "cog": 89.9,
+            "heading": 89.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T02:40:18+00:00"
+          },
+          {
+            "lat": 28.59991,
+            "lon": -94.93279,
+            "sog": 12.0,
+            "cog": 90.9,
+            "heading": 90.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T02:41:19+00:00"
+          },
+          {
+            "lat": 28.59982,
+            "lon": -94.92847,
+            "sog": 12.1,
+            "cog": 90.7,
+            "heading": 90.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T02:42:28+00:00"
+          },
+          {
+            "lat": 28.59974,
+            "lon": -94.92388,
+            "sog": 12.3,
+            "cog": 91.4,
+            "heading": 90.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T02:43:39+00:00"
+          },
+          {
+            "lat": 28.59966,
+            "lon": -94.91932,
+            "sog": 12.4,
+            "cog": 90.9,
+            "heading": 90.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T02:44:48+00:00"
+          },
+          {
+            "lat": 28.59958,
+            "lon": -94.91476,
+            "sog": 12.5,
+            "cog": 91.2,
+            "heading": 90.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T02:45:58+00:00"
+          },
+          {
+            "lat": 28.59948,
+            "lon": -94.90932,
+            "sog": 12.6,
+            "cog": 91.0,
+            "heading": 90.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T02:47:19+00:00"
+          },
+          {
+            "lat": 28.59937,
+            "lon": -94.90478,
+            "sog": 12.7,
+            "cog": 91.4,
+            "heading": 90.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T02:48:28+00:00"
+          },
+          {
+            "lat": 28.5993,
+            "lon": -94.89993,
+            "sog": 12.7,
+            "cog": 91.4,
+            "heading": 90.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T02:49:39+00:00"
+          },
+          {
+            "lat": 28.59921,
+            "lon": -94.89537,
+            "sog": 12.7,
+            "cog": 89.5,
+            "heading": 86.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T02:50:48+00:00"
+          },
+          {
+            "lat": 28.59935,
+            "lon": -94.88994,
+            "sog": 12.7,
+            "cog": 87.9,
+            "heading": 86.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T02:52:08+00:00"
+          },
+          {
+            "lat": 28.59949,
+            "lon": -94.88521,
+            "sog": 12.8,
+            "cog": 87.9,
+            "heading": 86.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T02:53:18+00:00"
+          },
+          {
+            "lat": 28.59961,
+            "lon": -94.88056,
+            "sog": 12.9,
+            "cog": 88.3,
+            "heading": 86.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T02:54:28+00:00"
+          },
+          {
+            "lat": 28.59975,
+            "lon": -94.87567,
+            "sog": 12.9,
+            "cog": 88.4,
+            "heading": 87.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T02:55:39+00:00"
+          },
+          {
+            "lat": 28.59989,
+            "lon": -94.87091,
+            "sog": 12.9,
+            "cog": 88.0,
+            "heading": 86.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T02:56:49+00:00"
+          },
+          {
+            "lat": 28.60003,
+            "lon": -94.86547,
+            "sog": 12.9,
+            "cog": 88.5,
+            "heading": 87.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T02:58:09+00:00"
+          },
+          {
+            "lat": 28.60012,
+            "lon": -94.86085,
+            "sog": 12.9,
+            "cog": 88.5,
+            "heading": 86.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T02:59:18+00:00"
+          },
+          {
+            "lat": 28.60036,
+            "lon": -94.85186,
+            "sog": 12.9,
+            "cog": 88.1,
+            "heading": 87.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T03:01:29+00:00"
+          },
+          {
+            "lat": 28.60049,
+            "lon": -94.84707,
+            "sog": 13.0,
+            "cog": 88.3,
+            "heading": 86.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T03:02:40+00:00"
+          },
+          {
+            "lat": 28.60057,
+            "lon": -94.84237,
+            "sog": 13.0,
+            "cog": 89.3,
+            "heading": 86.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T03:03:48+00:00"
+          },
+          {
+            "lat": 28.60072,
+            "lon": -94.83759,
+            "sog": 12.9,
+            "cog": 86.4,
+            "heading": 84.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T03:04:58+00:00"
+          },
+          {
+            "lat": 28.60101,
+            "lon": -94.83284,
+            "sog": 12.9,
+            "cog": 85.8,
+            "heading": 85.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T03:06:08+00:00"
+          },
+          {
+            "lat": 28.60131,
+            "lon": -94.82801,
+            "sog": 12.9,
+            "cog": 85.7,
+            "heading": 84.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T03:07:19+00:00"
+          },
+          {
+            "lat": 28.60161,
+            "lon": -94.82326,
+            "sog": 12.9,
+            "cog": 86.3,
+            "heading": 85.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T03:08:29+00:00"
+          },
+          {
+            "lat": 28.60193,
+            "lon": -94.81796,
+            "sog": 12.9,
+            "cog": 85.8,
+            "heading": 85.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T03:09:48+00:00"
+          },
+          {
+            "lat": 28.6022,
+            "lon": -94.81307,
+            "sog": 12.9,
+            "cog": 86.4,
+            "heading": 85.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T03:10:59+00:00"
+          },
+          {
+            "lat": 28.60249,
+            "lon": -94.80846,
+            "sog": 12.9,
+            "cog": 86.5,
+            "heading": 85.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T03:12:08+00:00"
+          },
+          {
+            "lat": 28.60277,
+            "lon": -94.80358,
+            "sog": 12.9,
+            "cog": 86.3,
+            "heading": 85.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T03:13:19+00:00"
+          },
+          {
+            "lat": 28.60304,
+            "lon": -94.79892,
+            "sog": 12.9,
+            "cog": 86.1,
+            "heading": 85.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T03:14:28+00:00"
+          },
+          {
+            "lat": 28.60339,
+            "lon": -94.79282,
+            "sog": 12.9,
+            "cog": 85.9,
+            "heading": 84.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T03:15:58+00:00"
+          },
+          {
+            "lat": 28.60368,
+            "lon": -94.78803,
+            "sog": 12.9,
+            "cog": 85.8,
+            "heading": 85.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T03:17:09+00:00"
+          },
+          {
+            "lat": 28.60395,
+            "lon": -94.78329,
+            "sog": 12.9,
+            "cog": 86.2,
+            "heading": 85.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T03:18:19+00:00"
+          },
+          {
+            "lat": 28.60422,
+            "lon": -94.77864,
+            "sog": 12.9,
+            "cog": 86.5,
+            "heading": 85.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T03:19:28+00:00"
+          },
+          {
+            "lat": 28.60445,
+            "lon": -94.77449,
+            "sog": 12.9,
+            "cog": 86.9,
+            "heading": 83.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T03:20:29+00:00"
+          },
+          {
+            "lat": 28.60481,
+            "lon": -94.76985,
+            "sog": 12.8,
+            "cog": 84.3,
+            "heading": 83.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T03:21:38+00:00"
+          },
+          {
+            "lat": 28.60524,
+            "lon": -94.7651,
+            "sog": 12.8,
+            "cog": 83.9,
+            "heading": 82.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T03:22:49+00:00"
+          },
+          {
+            "lat": 28.60564,
+            "lon": -94.76045,
+            "sog": 12.8,
+            "cog": 84.3,
+            "heading": 82.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T03:23:58+00:00"
+          }
+        ],
+        "disclaimer": "This is an investigation-priority score, not proof of responsibility. It ranks vessels by spatio-temporal and behavioural evidence only."
+      },
+      {
+        "rank": 2,
+        "mmsi": 538003480,
+        "vesselName": "ASPASIA LEMOS",
+        "vesselType": 80.0,
+        "score": 67.4,
+        "score_components": {
+          "spatial": 59.2,
+          "temporal": 74.6,
+          "trajectory": 80.0,
+          "behaviour": 33.0,
+          "data_quality": 100.0
+        },
+        "min_distance_km": 6.892,
+        "time_diff_hours": -3.05,
+        "trajectory_features": {
+          "min_distance_to_origin_km": 6.892,
+          "distance_at_release_km": 22.104,
+          "min_distance_time": "2021-01-31T20:57:05+00:00",
+          "time_diff_from_release_hours": -3.05,
+          "mean_speed_knots": 9.89,
+          "max_speed_knots": 11.8,
+          "course_at_min_distance": 136.0,
+          "speed_at_min_distance": 8.9,
+          "heading_changes_deg": 92.0,
+          "speed_changes_knots": 6.2,
+          "dwell_minutes_near_origin": 73.1,
+          "approach_bearing_deg": 135.6,
+          "departure_bearing_deg": 137.1,
+          "passes_within_radius": true,
+          "time_near_origin_minutes": 73.1,
+          "route_deviation_score": 0.133
+        },
+        "behaviour": {
+          "anomaly_score": 33.0,
+          "anomaly_flags": [
+            "Unusual dwell: 73 min near estimated origin"
+          ],
+          "svr_anomalies_in_window": 0,
+          "dbscan_cluster_label": null,
+          "dbscan_noise_points": 0,
+          "methodology": "Rule-based interpretable anomaly indicators + SVR speed anomaly detection (notebook methodology) within the window."
+        },
+        "evidence": [
+          "Trajectory passes through the estimated origin region"
+        ],
+        "filter_reasons": [
+          "Passed within 6.89 km of estimated origin during the release window"
+        ],
+        "confidence": 0.87,
+        "track": [
+          {
+            "lat": 28.62007,
+            "lon": -94.98002,
+            "sog": 8.8,
+            "cog": 135.0,
+            "heading": 137.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T20:30:25+00:00"
+          },
+          {
+            "lat": 28.61795,
+            "lon": -94.9777,
+            "sog": 8.8,
+            "cog": 135.0,
+            "heading": 137.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T20:31:36+00:00"
+          },
+          {
+            "lat": 28.61597,
+            "lon": -94.9755,
+            "sog": 8.8,
+            "cog": 136.0,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T20:32:44+00:00"
+          },
+          {
+            "lat": 28.61387,
+            "lon": -94.97327,
+            "sog": 8.8,
+            "cog": 136.0,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T20:33:56+00:00"
+          },
+          {
+            "lat": 28.61178,
+            "lon": -94.97108,
+            "sog": 8.8,
+            "cog": 137.0,
+            "heading": 137.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T20:35:05+00:00"
+          },
+          {
+            "lat": 28.60967,
+            "lon": -94.96883,
+            "sog": 8.8,
+            "cog": 137.0,
+            "heading": 137.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T20:36:15+00:00"
+          },
+          {
+            "lat": 28.60763,
+            "lon": -94.9666,
+            "sog": 8.8,
+            "cog": 134.0,
+            "heading": 137.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T20:37:24+00:00"
+          },
+          {
+            "lat": 28.60552,
+            "lon": -94.96435,
+            "sog": 8.8,
+            "cog": 137.0,
+            "heading": 137.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T20:38:35+00:00"
+          },
+          {
+            "lat": 28.60343,
+            "lon": -94.96212,
+            "sog": 8.8,
+            "cog": 137.0,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T20:39:45+00:00"
+          },
+          {
+            "lat": 28.60135,
+            "lon": -94.95993,
+            "sog": 8.8,
+            "cog": 136.0,
+            "heading": 137.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T20:40:54+00:00"
+          },
+          {
+            "lat": 28.59927,
+            "lon": -94.9577,
+            "sog": 8.8,
+            "cog": 136.0,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T20:42:05+00:00"
+          },
+          {
+            "lat": 28.5971,
+            "lon": -94.95545,
+            "sog": 8.8,
+            "cog": 137.0,
+            "heading": 137.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T20:43:15+00:00"
+          },
+          {
+            "lat": 28.595,
+            "lon": -94.9532,
+            "sog": 8.8,
+            "cog": 136.0,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T20:44:25+00:00"
+          },
+          {
+            "lat": 28.59295,
+            "lon": -94.95105,
+            "sog": 8.9,
+            "cog": 137.0,
+            "heading": 137.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T20:45:34+00:00"
+          },
+          {
+            "lat": 28.59112,
+            "lon": -94.94905,
+            "sog": 8.8,
+            "cog": 136.0,
+            "heading": 139.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T20:46:35+00:00"
+          },
+          {
+            "lat": 28.589,
+            "lon": -94.94682,
+            "sog": 8.8,
+            "cog": 136.0,
+            "heading": 137.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T20:47:45+00:00"
+          },
+          {
+            "lat": 28.58692,
+            "lon": -94.94463,
+            "sog": 8.9,
+            "cog": 138.0,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T20:48:54+00:00"
+          },
+          {
+            "lat": 28.58508,
+            "lon": -94.94272,
+            "sog": 8.8,
+            "cog": 136.0,
+            "heading": 137.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T20:49:56+00:00"
+          },
+          {
+            "lat": 28.58303,
+            "lon": -94.94048,
+            "sog": 8.8,
+            "cog": 136.0,
+            "heading": 136.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T20:51:05+00:00"
+          },
+          {
+            "lat": 28.58068,
+            "lon": -94.93785,
+            "sog": 8.8,
+            "cog": 134.0,
+            "heading": 135.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T20:52:24+00:00"
+          },
+          {
+            "lat": 28.57867,
+            "lon": -94.93542,
+            "sog": 8.8,
+            "cog": 133.0,
+            "heading": 137.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T20:53:35+00:00"
+          },
+          {
+            "lat": 28.57662,
+            "lon": -94.9332,
+            "sog": 8.9,
+            "cog": 136.0,
+            "heading": 135.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T20:54:44+00:00"
+          },
+          {
+            "lat": 28.57457,
+            "lon": -94.93083,
+            "sog": 8.9,
+            "cog": 133.0,
+            "heading": 136.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T20:55:56+00:00"
+          },
+          {
+            "lat": 28.5725,
+            "lon": -94.92852,
+            "sog": 8.9,
+            "cog": 136.0,
+            "heading": 139.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T20:57:05+00:00"
+          },
+          {
+            "lat": 28.57037,
+            "lon": -94.92627,
+            "sog": 8.9,
+            "cog": 136.0,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T20:58:15+00:00"
+          },
+          {
+            "lat": 28.56827,
+            "lon": -94.92412,
+            "sog": 8.9,
+            "cog": 138.0,
+            "heading": 137.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T20:59:25+00:00"
+          },
+          {
+            "lat": 28.56677,
+            "lon": -94.92247,
+            "sog": 8.9,
+            "cog": 136.0,
+            "heading": 137.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:00:14+00:00"
+          },
+          {
+            "lat": 28.56455,
+            "lon": -94.92005,
+            "sog": 9.5,
+            "cog": 135.0,
+            "heading": 139.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:01:25+00:00"
+          },
+          {
+            "lat": 28.5621,
+            "lon": -94.91762,
+            "sog": 10.1,
+            "cog": 138.0,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:02:35+00:00"
+          },
+          {
+            "lat": 28.55965,
+            "lon": -94.91508,
+            "sog": 10.5,
+            "cog": 137.0,
+            "heading": 139.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:03:44+00:00"
+          },
+          {
+            "lat": 28.557,
+            "lon": -94.9124,
+            "sog": 10.9,
+            "cog": 137.0,
+            "heading": 139.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:04:55+00:00"
+          },
+          {
+            "lat": 28.55438,
+            "lon": -94.90968,
+            "sog": 11.0,
+            "cog": 136.0,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:06:04+00:00"
+          },
+          {
+            "lat": 28.55167,
+            "lon": -94.90682,
+            "sog": 11.2,
+            "cog": 137.0,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:07:14+00:00"
+          },
+          {
+            "lat": 28.5489,
+            "lon": -94.90397,
+            "sog": 11.4,
+            "cog": 138.0,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:08:25+00:00"
+          },
+          {
+            "lat": 28.5461,
+            "lon": -94.90105,
+            "sog": 11.5,
+            "cog": 136.0,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:09:36+00:00"
+          },
+          {
+            "lat": 28.54337,
+            "lon": -94.89822,
+            "sog": 11.6,
+            "cog": 137.0,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:10:46+00:00"
+          },
+          {
+            "lat": 28.54058,
+            "lon": -94.89523,
+            "sog": 11.6,
+            "cog": 136.0,
+            "heading": 139.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:11:55+00:00"
+          },
+          {
+            "lat": 28.53782,
+            "lon": -94.89245,
+            "sog": 11.6,
+            "cog": 137.0,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:13:05+00:00"
+          },
+          {
+            "lat": 28.53493,
+            "lon": -94.8895,
+            "sog": 11.6,
+            "cog": 138.0,
+            "heading": 137.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:14:15+00:00"
+          },
+          {
+            "lat": 28.53223,
+            "lon": -94.88657,
+            "sog": 11.7,
+            "cog": 137.0,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:15:25+00:00"
+          },
+          {
+            "lat": 28.52948,
+            "lon": -94.88368,
+            "sog": 11.7,
+            "cog": 137.0,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:16:34+00:00"
+          },
+          {
+            "lat": 28.52665,
+            "lon": -94.88072,
+            "sog": 11.7,
+            "cog": 136.0,
+            "heading": 139.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:17:44+00:00"
+          },
+          {
+            "lat": 28.52385,
+            "lon": -94.87785,
+            "sog": 11.7,
+            "cog": 138.0,
+            "heading": 139.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:18:54+00:00"
+          },
+          {
+            "lat": 28.52098,
+            "lon": -94.87492,
+            "sog": 11.7,
+            "cog": 137.0,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:20:04+00:00"
+          },
+          {
+            "lat": 28.51817,
+            "lon": -94.87192,
+            "sog": 11.7,
+            "cog": 136.0,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:21:16+00:00"
+          },
+          {
+            "lat": 28.5154,
+            "lon": -94.86897,
+            "sog": 11.7,
+            "cog": 136.0,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:22:26+00:00"
+          },
+          {
+            "lat": 28.51263,
+            "lon": -94.86607,
+            "sog": 11.7,
+            "cog": 136.0,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:23:35+00:00"
+          },
+          {
+            "lat": 28.50978,
+            "lon": -94.86308,
+            "sog": 11.7,
+            "cog": 137.0,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:24:46+00:00"
+          },
+          {
+            "lat": 28.50698,
+            "lon": -94.86013,
+            "sog": 11.8,
+            "cog": 137.0,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:25:56+00:00"
+          },
+          {
+            "lat": 28.50413,
+            "lon": -94.85715,
+            "sog": 11.8,
+            "cog": 136.0,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:27:05+00:00"
+          },
+          {
+            "lat": 28.50145,
+            "lon": -94.85427,
+            "sog": 11.8,
+            "cog": 137.0,
+            "heading": 139.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:28:14+00:00"
+          },
+          {
+            "lat": 28.4986,
+            "lon": -94.85128,
+            "sog": 11.7,
+            "cog": 136.0,
+            "heading": 137.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:29:24+00:00"
+          },
+          {
+            "lat": 28.49578,
+            "lon": -94.84822,
+            "sog": 11.7,
+            "cog": 136.0,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:30:35+00:00"
+          },
+          {
+            "lat": 28.49303,
+            "lon": -94.84533,
+            "sog": 11.7,
+            "cog": 137.0,
+            "heading": 137.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:31:44+00:00"
+          },
+          {
+            "lat": 28.49033,
+            "lon": -94.84235,
+            "sog": 11.5,
+            "cog": 135.0,
+            "heading": 137.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:32:54+00:00"
+          },
+          {
+            "lat": 28.48768,
+            "lon": -94.83957,
+            "sog": 10.9,
+            "cog": 137.0,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:34:04+00:00"
+          },
+          {
+            "lat": 28.48517,
+            "lon": -94.83683,
+            "sog": 10.5,
+            "cog": 135.0,
+            "heading": 139.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:35:14+00:00"
+          },
+          {
+            "lat": 28.48268,
+            "lon": -94.83437,
+            "sog": 10.0,
+            "cog": 141.0,
+            "heading": 142.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:36:25+00:00"
+          },
+          {
+            "lat": 28.47987,
+            "lon": -94.83168,
+            "sog": 9.7,
+            "cog": 138.0,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:37:44+00:00"
+          },
+          {
+            "lat": 28.47758,
+            "lon": -94.82937,
+            "sog": 9.6,
+            "cog": 137.0,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:38:54+00:00"
+          },
+          {
+            "lat": 28.47528,
+            "lon": -94.82687,
+            "sog": 9.4,
+            "cog": 136.0,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:40:05+00:00"
+          },
+          {
+            "lat": 28.47307,
+            "lon": -94.8246,
+            "sog": 9.3,
+            "cog": 138.0,
+            "heading": 139.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:41:14+00:00"
+          },
+          {
+            "lat": 28.4708,
+            "lon": -94.82225,
+            "sog": 9.3,
+            "cog": 137.0,
+            "heading": 136.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:42:24+00:00"
+          },
+          {
+            "lat": 28.46868,
+            "lon": -94.8199,
+            "sog": 9.2,
+            "cog": 134.0,
+            "heading": 134.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:43:34+00:00"
+          },
+          {
+            "lat": 28.4666,
+            "lon": -94.81737,
+            "sog": 9.1,
+            "cog": 132.0,
+            "heading": 133.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:44:46+00:00"
+          },
+          {
+            "lat": 28.46462,
+            "lon": -94.8149,
+            "sog": 9.1,
+            "cog": 132.0,
+            "heading": 134.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:45:55+00:00"
+          },
+          {
+            "lat": 28.46262,
+            "lon": -94.81243,
+            "sog": 9.1,
+            "cog": 132.0,
+            "heading": 134.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:47:04+00:00"
+          },
+          {
+            "lat": 28.4606,
+            "lon": -94.80998,
+            "sog": 9.1,
+            "cog": 133.0,
+            "heading": 135.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:48:14+00:00"
+          },
+          {
+            "lat": 28.45857,
+            "lon": -94.8076,
+            "sog": 9.1,
+            "cog": 133.0,
+            "heading": 136.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:49:24+00:00"
+          },
+          {
+            "lat": 28.45673,
+            "lon": -94.80548,
+            "sog": 9.1,
+            "cog": 134.0,
+            "heading": 137.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:50:25+00:00"
+          },
+          {
+            "lat": 28.45462,
+            "lon": -94.80313,
+            "sog": 9.1,
+            "cog": 135.0,
+            "heading": 137.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:51:35+00:00"
+          },
+          {
+            "lat": 28.45247,
+            "lon": -94.80078,
+            "sog": 9.1,
+            "cog": 136.0,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:52:45+00:00"
+          },
+          {
+            "lat": 28.45028,
+            "lon": -94.79848,
+            "sog": 9.1,
+            "cog": 137.0,
+            "heading": 139.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:53:56+00:00"
+          },
+          {
+            "lat": 28.4481,
+            "lon": -94.79625,
+            "sog": 9.1,
+            "cog": 137.0,
+            "heading": 140.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:55:04+00:00"
+          },
+          {
+            "lat": 28.44585,
+            "lon": -94.794,
+            "sog": 9.1,
+            "cog": 139.0,
+            "heading": 141.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:56:16+00:00"
+          },
+          {
+            "lat": 28.44357,
+            "lon": -94.79183,
+            "sog": 9.1,
+            "cog": 140.0,
+            "heading": 142.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:57:25+00:00"
+          },
+          {
+            "lat": 28.44092,
+            "lon": -94.78938,
+            "sog": 9.1,
+            "cog": 140.0,
+            "heading": 142.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:58:45+00:00"
+          },
+          {
+            "lat": 28.43868,
+            "lon": -94.78732,
+            "sog": 9.1,
+            "cog": 140.0,
+            "heading": 142.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:59:54+00:00"
+          },
+          {
+            "lat": 28.438,
+            "lon": -94.78667,
+            "sog": 9.1,
+            "cog": 140.0,
+            "heading": 141.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T22:00:16+00:00"
+          },
+          {
+            "lat": 28.43572,
+            "lon": -94.78457,
+            "sog": 9.1,
+            "cog": 140.0,
+            "heading": 140.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T22:01:25+00:00"
+          },
+          {
+            "lat": 28.43345,
+            "lon": -94.78235,
+            "sog": 9.0,
+            "cog": 139.0,
+            "heading": 139.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T22:02:35+00:00"
+          }
+        ],
+        "disclaimer": "This is an investigation-priority score, not proof of responsibility. It ranks vessels by spatio-temporal and behavioural evidence only."
+      },
+      {
+        "rank": 3,
+        "mmsi": 565396000,
+        "vesselName": "BOW FIRDA",
+        "vesselType": 80.0,
+        "score": 64.1,
+        "score_components": {
+          "spatial": 55.6,
+          "temporal": 78.4,
+          "trajectory": 80.0,
+          "behaviour": 12.0,
+          "data_quality": 100.0
+        },
+        "min_distance_km": 7.493,
+        "time_diff_hours": -2.59,
+        "trajectory_features": {
+          "min_distance_to_origin_km": 7.493,
+          "distance_at_release_km": 23.149,
+          "min_distance_time": "2021-01-31T21:24:30+00:00",
+          "time_diff_from_release_hours": -2.59,
+          "mean_speed_knots": 14.05,
+          "max_speed_knots": 14.2,
+          "course_at_min_distance": 136.2,
+          "speed_at_min_distance": 14.0,
+          "heading_changes_deg": 17.8,
+          "speed_changes_knots": 2.3,
+          "dwell_minutes_near_origin": 51.4,
+          "approach_bearing_deg": 135.9,
+          "departure_bearing_deg": 137.1,
+          "passes_within_radius": true,
+          "time_near_origin_minutes": 51.4,
+          "route_deviation_score": 0.157
+        },
+        "behaviour": {
+          "anomaly_score": 12.0,
+          "anomaly_flags": [
+            "Extended presence: 51 min near estimated origin"
+          ],
+          "svr_anomalies_in_window": 0,
+          "dbscan_cluster_label": null,
+          "dbscan_noise_points": 0,
+          "methodology": "Rule-based interpretable anomaly indicators + SVR speed anomaly detection (notebook methodology) within the window."
+        },
+        "evidence": [
+          "Trajectory passes through the estimated origin region"
+        ],
+        "filter_reasons": [
+          "Passed within 7.49 km of estimated origin during the release window"
+        ],
+        "confidence": 0.86,
+        "track": [
+          {
+            "lat": 28.6205,
+            "lon": -94.97383,
+            "sog": 13.9,
+            "cog": 135.3,
+            "heading": 136.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:08:27+00:00"
+          },
+          {
+            "lat": 28.61733,
+            "lon": -94.97017,
+            "sog": 13.8,
+            "cog": 135.3,
+            "heading": 136.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:09:37+00:00"
+          },
+          {
+            "lat": 28.61321,
+            "lon": -94.96562,
+            "sog": 13.9,
+            "cog": 135.4,
+            "heading": 136.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:11:06+00:00"
+          },
+          {
+            "lat": 28.60996,
+            "lon": -94.96198,
+            "sog": 13.9,
+            "cog": 135.6,
+            "heading": 136.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:12:17+00:00"
+          },
+          {
+            "lat": 28.60683,
+            "lon": -94.9585,
+            "sog": 13.9,
+            "cog": 135.0,
+            "heading": 136.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:13:27+00:00"
+          },
+          {
+            "lat": 28.60367,
+            "lon": -94.95483,
+            "sog": 13.9,
+            "cog": 135.1,
+            "heading": 135.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:14:37+00:00"
+          },
+          {
+            "lat": 28.6005,
+            "lon": -94.95117,
+            "sog": 13.9,
+            "cog": 135.0,
+            "heading": 135.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:15:47+00:00"
+          },
+          {
+            "lat": 28.59718,
+            "lon": -94.94757,
+            "sog": 13.9,
+            "cog": 134.8,
+            "heading": 135.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:16:58+00:00"
+          },
+          {
+            "lat": 28.59435,
+            "lon": -94.94435,
+            "sog": 13.9,
+            "cog": 135.3,
+            "heading": 136.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:17:59+00:00"
+          },
+          {
+            "lat": 28.59158,
+            "lon": -94.94127,
+            "sog": 14.0,
+            "cog": 135.5,
+            "heading": 136.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:19:00+00:00"
+          },
+          {
+            "lat": 28.58867,
+            "lon": -94.938,
+            "sog": 14.0,
+            "cog": 135.5,
+            "heading": 136.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:20:05+00:00"
+          },
+          {
+            "lat": 28.5855,
+            "lon": -94.9345,
+            "sog": 14.0,
+            "cog": 135.0,
+            "heading": 135.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:21:11+00:00"
+          },
+          {
+            "lat": 28.5825,
+            "lon": -94.93117,
+            "sog": 13.9,
+            "cog": 135.0,
+            "heading": 135.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:22:17+00:00"
+          },
+          {
+            "lat": 28.57945,
+            "lon": -94.92762,
+            "sog": 14.0,
+            "cog": 135.2,
+            "heading": 136.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:23:23+00:00"
+          },
+          {
+            "lat": 28.57638,
+            "lon": -94.92423,
+            "sog": 14.0,
+            "cog": 136.2,
+            "heading": 137.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:24:30+00:00"
+          },
+          {
+            "lat": 28.57333,
+            "lon": -94.921,
+            "sog": 13.9,
+            "cog": 136.6,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:25:35+00:00"
+          },
+          {
+            "lat": 28.57017,
+            "lon": -94.91767,
+            "sog": 14.0,
+            "cog": 137.2,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:26:41+00:00"
+          },
+          {
+            "lat": 28.56698,
+            "lon": -94.9143,
+            "sog": 14.0,
+            "cog": 137.0,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:27:47+00:00"
+          },
+          {
+            "lat": 28.56383,
+            "lon": -94.911,
+            "sog": 14.0,
+            "cog": 137.6,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:28:53+00:00"
+          },
+          {
+            "lat": 28.56067,
+            "lon": -94.90783,
+            "sog": 14.1,
+            "cog": 137.0,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:29:58+00:00"
+          },
+          {
+            "lat": 28.55783,
+            "lon": -94.90467,
+            "sog": 14.1,
+            "cog": 137.0,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:30:59+00:00"
+          },
+          {
+            "lat": 28.55467,
+            "lon": -94.90133,
+            "sog": 14.1,
+            "cog": 136.7,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:32:05+00:00"
+          },
+          {
+            "lat": 28.5515,
+            "lon": -94.898,
+            "sog": 14.0,
+            "cog": 137.1,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:33:11+00:00"
+          },
+          {
+            "lat": 28.5481,
+            "lon": -94.89445,
+            "sog": 14.0,
+            "cog": 137.2,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:34:23+00:00"
+          },
+          {
+            "lat": 28.5449,
+            "lon": -94.89108,
+            "sog": 14.0,
+            "cog": 137.0,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:35:29+00:00"
+          },
+          {
+            "lat": 28.54175,
+            "lon": -94.88775,
+            "sog": 14.1,
+            "cog": 136.6,
+            "heading": 137.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:36:35+00:00"
+          },
+          {
+            "lat": 28.53862,
+            "lon": -94.8844,
+            "sog": 14.1,
+            "cog": 136.7,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:37:42+00:00"
+          },
+          {
+            "lat": 28.53546,
+            "lon": -94.88107,
+            "sog": 14.0,
+            "cog": 136.8,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:38:47+00:00"
+          },
+          {
+            "lat": 28.53233,
+            "lon": -94.87783,
+            "sog": 14.0,
+            "cog": 137.0,
+            "heading": 137.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:39:53+00:00"
+          },
+          {
+            "lat": 28.529,
+            "lon": -94.87417,
+            "sog": 14.1,
+            "cog": 136.8,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:41:05+00:00"
+          },
+          {
+            "lat": 28.52583,
+            "lon": -94.87083,
+            "sog": 14.0,
+            "cog": 136.5,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:42:11+00:00"
+          },
+          {
+            "lat": 28.52233,
+            "lon": -94.86717,
+            "sog": 14.0,
+            "cog": 137.1,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:43:23+00:00"
+          },
+          {
+            "lat": 28.51919,
+            "lon": -94.86379,
+            "sog": 14.1,
+            "cog": 136.4,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:44:29+00:00"
+          },
+          {
+            "lat": 28.51605,
+            "lon": -94.86046,
+            "sog": 14.1,
+            "cog": 137.2,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:45:35+00:00"
+          },
+          {
+            "lat": 28.5129,
+            "lon": -94.85713,
+            "sog": 14.1,
+            "cog": 137.2,
+            "heading": 136.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:46:42+00:00"
+          },
+          {
+            "lat": 28.50983,
+            "lon": -94.85383,
+            "sog": 14.0,
+            "cog": 135.5,
+            "heading": 136.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:47:47+00:00"
+          },
+          {
+            "lat": 28.50675,
+            "lon": -94.8503,
+            "sog": 14.1,
+            "cog": 134.9,
+            "heading": 135.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:48:54+00:00"
+          },
+          {
+            "lat": 28.5037,
+            "lon": -94.84682,
+            "sog": 14.1,
+            "cog": 134.9,
+            "heading": 135.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:49:59+00:00"
+          },
+          {
+            "lat": 28.50067,
+            "lon": -94.84333,
+            "sog": 14.1,
+            "cog": 134.8,
+            "heading": 135.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:51:05+00:00"
+          },
+          {
+            "lat": 28.49761,
+            "lon": -94.83985,
+            "sog": 14.2,
+            "cog": 134.6,
+            "heading": 135.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:52:11+00:00"
+          },
+          {
+            "lat": 28.49467,
+            "lon": -94.8365,
+            "sog": 14.2,
+            "cog": 135.1,
+            "heading": 136.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:53:17+00:00"
+          },
+          {
+            "lat": 28.4915,
+            "lon": -94.833,
+            "sog": 14.2,
+            "cog": 135.0,
+            "heading": 136.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:54:23+00:00"
+          },
+          {
+            "lat": 28.4884,
+            "lon": -94.82943,
+            "sog": 14.2,
+            "cog": 135.0,
+            "heading": 135.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:55:30+00:00"
+          },
+          {
+            "lat": 28.48538,
+            "lon": -94.826,
+            "sog": 14.1,
+            "cog": 134.8,
+            "heading": 136.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:56:35+00:00"
+          },
+          {
+            "lat": 28.48227,
+            "lon": -94.82248,
+            "sog": 14.1,
+            "cog": 135.2,
+            "heading": 136.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:57:41+00:00"
+          },
+          {
+            "lat": 28.47918,
+            "lon": -94.81903,
+            "sog": 14.2,
+            "cog": 135.0,
+            "heading": 136.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:58:47+00:00"
+          },
+          {
+            "lat": 28.47617,
+            "lon": -94.81567,
+            "sog": 14.1,
+            "cog": 134.9,
+            "heading": 136.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T21:59:53+00:00"
+          },
+          {
+            "lat": 28.4753,
+            "lon": -94.81462,
+            "sog": 14.1,
+            "cog": 135.2,
+            "heading": 135.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T22:00:12+00:00"
+          },
+          {
+            "lat": 28.47233,
+            "lon": -94.81117,
+            "sog": 14.1,
+            "cog": 134.5,
+            "heading": 136.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T22:01:17+00:00"
+          },
+          {
+            "lat": 28.46917,
+            "lon": -94.80767,
+            "sog": 14.1,
+            "cog": 135.0,
+            "heading": 136.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T22:02:23+00:00"
+          },
+          {
+            "lat": 28.46617,
+            "lon": -94.80433,
+            "sog": 14.1,
+            "cog": 134.9,
+            "heading": 135.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T22:03:29+00:00"
+          },
+          {
+            "lat": 28.46308,
+            "lon": -94.80073,
+            "sog": 14.1,
+            "cog": 134.9,
+            "heading": 136.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T22:04:35+00:00"
+          },
+          {
+            "lat": 28.46,
+            "lon": -94.79725,
+            "sog": 14.1,
+            "cog": 134.9,
+            "heading": 136.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T22:05:42+00:00"
+          },
+          {
+            "lat": 28.457,
+            "lon": -94.79383,
+            "sog": 14.2,
+            "cog": 134.9,
+            "heading": 136.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T22:06:47+00:00"
+          },
+          {
+            "lat": 28.45367,
+            "lon": -94.79,
+            "sog": 14.1,
+            "cog": 134.8,
+            "heading": 136.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T22:07:59+00:00"
+          },
+          {
+            "lat": 28.45055,
+            "lon": -94.78652,
+            "sog": 14.1,
+            "cog": 135.2,
+            "heading": 136.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T22:09:05+00:00"
+          },
+          {
+            "lat": 28.4475,
+            "lon": -94.78317,
+            "sog": 14.1,
+            "cog": 135.1,
+            "heading": 136.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T22:10:11+00:00"
+          },
+          {
+            "lat": 28.4444,
+            "lon": -94.77958,
+            "sog": 14.1,
+            "cog": 134.7,
+            "heading": 135.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T22:11:17+00:00"
+          },
+          {
+            "lat": 28.44133,
+            "lon": -94.77617,
+            "sog": 14.2,
+            "cog": 134.6,
+            "heading": 136.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T22:12:23+00:00"
+          },
+          {
+            "lat": 28.43829,
+            "lon": -94.77261,
+            "sog": 14.2,
+            "cog": 134.7,
+            "heading": 135.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T22:13:29+00:00"
+          },
+          {
+            "lat": 28.43525,
+            "lon": -94.76913,
+            "sog": 14.2,
+            "cog": 135.1,
+            "heading": 136.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T22:14:35+00:00"
+          }
+        ],
+        "disclaimer": "This is an investigation-priority score, not proof of responsibility. It ranks vessels by spatio-temporal and behavioural evidence only."
+      },
+      {
+        "rank": 4,
+        "mmsi": 636010380,
+        "vesselName": "STOLT CAPABILITY",
+        "vesselType": 80.0,
+        "score": 58.2,
+        "score_components": {
+          "spatial": 52.1,
+          "temporal": 59.1,
+          "trajectory": 80.0,
+          "behaviour": 12.0,
+          "data_quality": 100.0
+        },
+        "min_distance_km": 8.09,
+        "time_diff_hours": 4.91,
+        "trajectory_features": {
+          "min_distance_to_origin_km": 8.09,
+          "distance_at_release_km": 23.496,
+          "min_distance_time": "2021-02-01T04:54:36+00:00",
+          "time_diff_from_release_hours": 4.91,
+          "mean_speed_knots": 12.5,
+          "max_speed_knots": 12.6,
+          "course_at_min_distance": 317.1,
+          "speed_at_min_distance": 12.6,
+          "heading_changes_deg": 20.3,
+          "speed_changes_knots": 1.9,
+          "dwell_minutes_near_origin": 54.3,
+          "approach_bearing_deg": 317.4,
+          "departure_bearing_deg": 317.1,
+          "passes_within_radius": true,
+          "time_near_origin_minutes": 54.3,
+          "route_deviation_score": 0.194
+        },
+        "behaviour": {
+          "anomaly_score": 12.0,
+          "anomaly_flags": [
+            "Extended presence: 54 min near estimated origin"
+          ],
+          "svr_anomalies_in_window": 0,
+          "dbscan_cluster_label": null,
+          "dbscan_noise_points": 0,
+          "methodology": "Rule-based interpretable anomaly indicators + SVR speed anomaly detection (notebook methodology) within the window."
+        },
+        "evidence": [
+          "Trajectory passes through the estimated origin region"
+        ],
+        "filter_reasons": [
+          "Passed within 8.09 km of estimated origin during the release window"
+        ],
+        "confidence": 0.83,
+        "track": [
+          {
+            "lat": 28.43294,
+            "lon": -94.7665,
+            "sog": 12.4,
+            "cog": 318.0,
+            "heading": 318.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T03:57:16+00:00"
+          },
+          {
+            "lat": 28.43586,
+            "lon": -94.76952,
+            "sog": 12.5,
+            "cog": 317.9,
+            "heading": 318.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T03:58:26+00:00"
+          },
+          {
+            "lat": 28.43897,
+            "lon": -94.77268,
+            "sog": 12.4,
+            "cog": 318.1,
+            "heading": 318.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T03:59:37+00:00"
+          },
+          {
+            "lat": 28.44024,
+            "lon": -94.774,
+            "sog": 12.5,
+            "cog": 317.6,
+            "heading": 319.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:00:07+00:00"
+          },
+          {
+            "lat": 28.44322,
+            "lon": -94.77703,
+            "sog": 12.4,
+            "cog": 317.6,
+            "heading": 319.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:01:16+00:00"
+          },
+          {
+            "lat": 28.44624,
+            "lon": -94.78006,
+            "sog": 12.4,
+            "cog": 318.1,
+            "heading": 318.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:02:26+00:00"
+          },
+          {
+            "lat": 28.44923,
+            "lon": -94.7831,
+            "sog": 12.5,
+            "cog": 318.2,
+            "heading": 319.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:03:36+00:00"
+          },
+          {
+            "lat": 28.45272,
+            "lon": -94.78665,
+            "sog": 12.4,
+            "cog": 318.4,
+            "heading": 319.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:04:57+00:00"
+          },
+          {
+            "lat": 28.45571,
+            "lon": -94.78964,
+            "sog": 12.4,
+            "cog": 317.9,
+            "heading": 318.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:06:06+00:00"
+          },
+          {
+            "lat": 28.45913,
+            "lon": -94.79319,
+            "sog": 12.5,
+            "cog": 318.2,
+            "heading": 319.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:07:26+00:00"
+          },
+          {
+            "lat": 28.46225,
+            "lon": -94.79629,
+            "sog": 12.5,
+            "cog": 317.4,
+            "heading": 318.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:08:37+00:00"
+          },
+          {
+            "lat": 28.46518,
+            "lon": -94.79932,
+            "sog": 12.5,
+            "cog": 317.9,
+            "heading": 318.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:09:46+00:00"
+          },
+          {
+            "lat": 28.46815,
+            "lon": -94.80242,
+            "sog": 12.5,
+            "cog": 317.7,
+            "heading": 319.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:10:57+00:00"
+          },
+          {
+            "lat": 28.47117,
+            "lon": -94.80547,
+            "sog": 12.5,
+            "cog": 317.9,
+            "heading": 319.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:12:06+00:00"
+          },
+          {
+            "lat": 28.47416,
+            "lon": -94.80851,
+            "sog": 12.4,
+            "cog": 317.8,
+            "heading": 318.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:13:16+00:00"
+          },
+          {
+            "lat": 28.47724,
+            "lon": -94.81162,
+            "sog": 12.4,
+            "cog": 317.8,
+            "heading": 318.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:14:26+00:00"
+          },
+          {
+            "lat": 28.48024,
+            "lon": -94.81473,
+            "sog": 12.4,
+            "cog": 317.4,
+            "heading": 318.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:15:37+00:00"
+          },
+          {
+            "lat": 28.48323,
+            "lon": -94.81779,
+            "sog": 12.4,
+            "cog": 317.7,
+            "heading": 319.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:16:47+00:00"
+          },
+          {
+            "lat": 28.48615,
+            "lon": -94.82081,
+            "sog": 12.4,
+            "cog": 317.8,
+            "heading": 319.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:17:57+00:00"
+          },
+          {
+            "lat": 28.48914,
+            "lon": -94.82385,
+            "sog": 12.4,
+            "cog": 317.6,
+            "heading": 318.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:19:06+00:00"
+          },
+          {
+            "lat": 28.49208,
+            "lon": -94.82699,
+            "sog": 12.4,
+            "cog": 316.5,
+            "heading": 317.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:20:16+00:00"
+          },
+          {
+            "lat": 28.49499,
+            "lon": -94.83012,
+            "sog": 12.4,
+            "cog": 316.2,
+            "heading": 317.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:21:26+00:00"
+          },
+          {
+            "lat": 28.49801,
+            "lon": -94.83329,
+            "sog": 12.4,
+            "cog": 316.9,
+            "heading": 318.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:22:37+00:00"
+          },
+          {
+            "lat": 28.50094,
+            "lon": -94.83643,
+            "sog": 12.4,
+            "cog": 316.8,
+            "heading": 318.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:23:47+00:00"
+          },
+          {
+            "lat": 28.50391,
+            "lon": -94.83953,
+            "sog": 12.4,
+            "cog": 317.4,
+            "heading": 318.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:24:57+00:00"
+          },
+          {
+            "lat": 28.50687,
+            "lon": -94.84261,
+            "sog": 12.5,
+            "cog": 316.9,
+            "heading": 318.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:26:07+00:00"
+          },
+          {
+            "lat": 28.50984,
+            "lon": -94.84575,
+            "sog": 12.5,
+            "cog": 317.2,
+            "heading": 317.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:27:17+00:00"
+          },
+          {
+            "lat": 28.51282,
+            "lon": -94.84889,
+            "sog": 12.5,
+            "cog": 317.3,
+            "heading": 318.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:28:27+00:00"
+          },
+          {
+            "lat": 28.51575,
+            "lon": -94.85198,
+            "sog": 12.5,
+            "cog": 317.1,
+            "heading": 317.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:29:36+00:00"
+          },
+          {
+            "lat": 28.51876,
+            "lon": -94.85514,
+            "sog": 12.5,
+            "cog": 317.0,
+            "heading": 318.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:30:46+00:00"
+          },
+          {
+            "lat": 28.52181,
+            "lon": -94.85831,
+            "sog": 12.5,
+            "cog": 317.1,
+            "heading": 317.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:31:57+00:00"
+          },
+          {
+            "lat": 28.52479,
+            "lon": -94.86144,
+            "sog": 12.5,
+            "cog": 317.4,
+            "heading": 317.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:33:07+00:00"
+          },
+          {
+            "lat": 28.5277,
+            "lon": -94.86447,
+            "sog": 12.6,
+            "cog": 317.1,
+            "heading": 317.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:34:16+00:00"
+          },
+          {
+            "lat": 28.53074,
+            "lon": -94.86767,
+            "sog": 12.5,
+            "cog": 317.0,
+            "heading": 318.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:35:26+00:00"
+          },
+          {
+            "lat": 28.53369,
+            "lon": -94.87078,
+            "sog": 12.6,
+            "cog": 316.9,
+            "heading": 318.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:36:36+00:00"
+          },
+          {
+            "lat": 28.53677,
+            "lon": -94.87401,
+            "sog": 12.6,
+            "cog": 317.2,
+            "heading": 318.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:37:47+00:00"
+          },
+          {
+            "lat": 28.53975,
+            "lon": -94.8771,
+            "sog": 12.6,
+            "cog": 316.8,
+            "heading": 318.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:38:56+00:00"
+          },
+          {
+            "lat": 28.54273,
+            "lon": -94.88025,
+            "sog": 12.5,
+            "cog": 316.5,
+            "heading": 317.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:40:06+00:00"
+          },
+          {
+            "lat": 28.54566,
+            "lon": -94.88336,
+            "sog": 12.5,
+            "cog": 317.0,
+            "heading": 318.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:41:16+00:00"
+          },
+          {
+            "lat": 28.5487,
+            "lon": -94.88656,
+            "sog": 12.5,
+            "cog": 316.6,
+            "heading": 318.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:42:26+00:00"
+          },
+          {
+            "lat": 28.55212,
+            "lon": -94.89022,
+            "sog": 12.5,
+            "cog": 316.4,
+            "heading": 317.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:43:47+00:00"
+          },
+          {
+            "lat": 28.55506,
+            "lon": -94.89336,
+            "sog": 12.6,
+            "cog": 317.0,
+            "heading": 318.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:44:57+00:00"
+          },
+          {
+            "lat": 28.55808,
+            "lon": -94.89652,
+            "sog": 12.6,
+            "cog": 317.2,
+            "heading": 318.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:46:07+00:00"
+          },
+          {
+            "lat": 28.56107,
+            "lon": -94.89966,
+            "sog": 12.6,
+            "cog": 317.0,
+            "heading": 317.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:47:17+00:00"
+          },
+          {
+            "lat": 28.56405,
+            "lon": -94.90284,
+            "sog": 12.6,
+            "cog": 316.6,
+            "heading": 317.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:48:27+00:00"
+          },
+          {
+            "lat": 28.56698,
+            "lon": -94.90596,
+            "sog": 12.6,
+            "cog": 317.4,
+            "heading": 318.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:49:36+00:00"
+          },
+          {
+            "lat": 28.57003,
+            "lon": -94.90916,
+            "sog": 12.6,
+            "cog": 317.1,
+            "heading": 317.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:50:47+00:00"
+          },
+          {
+            "lat": 28.57341,
+            "lon": -94.91274,
+            "sog": 12.6,
+            "cog": 316.6,
+            "heading": 318.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:52:06+00:00"
+          },
+          {
+            "lat": 28.57642,
+            "lon": -94.91596,
+            "sog": 12.6,
+            "cog": 316.7,
+            "heading": 318.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:53:17+00:00"
+          },
+          {
+            "lat": 28.57981,
+            "lon": -94.91951,
+            "sog": 12.6,
+            "cog": 317.1,
+            "heading": 317.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:54:36+00:00"
+          },
+          {
+            "lat": 28.58242,
+            "lon": -94.92227,
+            "sog": 12.5,
+            "cog": 316.8,
+            "heading": 317.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:55:37+00:00"
+          },
+          {
+            "lat": 28.58533,
+            "lon": -94.92542,
+            "sog": 12.6,
+            "cog": 315.9,
+            "heading": 317.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:56:47+00:00"
+          },
+          {
+            "lat": 28.58832,
+            "lon": -94.92859,
+            "sog": 12.6,
+            "cog": 317.3,
+            "heading": 317.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:57:56+00:00"
+          },
+          {
+            "lat": 28.59127,
+            "lon": -94.93177,
+            "sog": 12.5,
+            "cog": 316.7,
+            "heading": 318.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T04:59:06+00:00"
+          },
+          {
+            "lat": 28.59427,
+            "lon": -94.93492,
+            "sog": 12.5,
+            "cog": 316.6,
+            "heading": 317.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T05:00:17+00:00"
+          },
+          {
+            "lat": 28.59719,
+            "lon": -94.93806,
+            "sog": 12.5,
+            "cog": 316.6,
+            "heading": 318.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T05:01:26+00:00"
+          },
+          {
+            "lat": 28.60007,
+            "lon": -94.94117,
+            "sog": 12.4,
+            "cog": 316.2,
+            "heading": 317.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T05:02:36+00:00"
+          },
+          {
+            "lat": 28.60311,
+            "lon": -94.94442,
+            "sog": 12.5,
+            "cog": 316.5,
+            "heading": 317.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T05:03:47+00:00"
+          },
+          {
+            "lat": 28.60603,
+            "lon": -94.94753,
+            "sog": 12.5,
+            "cog": 316.8,
+            "heading": 317.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T05:04:57+00:00"
+          },
+          {
+            "lat": 28.60943,
+            "lon": -94.95119,
+            "sog": 12.5,
+            "cog": 316.7,
+            "heading": 318.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T05:06:17+00:00"
+          },
+          {
+            "lat": 28.61236,
+            "lon": -94.95429,
+            "sog": 12.5,
+            "cog": 316.6,
+            "heading": 318.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T05:07:26+00:00"
+          },
+          {
+            "lat": 28.61534,
+            "lon": -94.95743,
+            "sog": 12.5,
+            "cog": 316.6,
+            "heading": 317.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T05:08:37+00:00"
+          },
+          {
+            "lat": 28.61874,
+            "lon": -94.9611,
+            "sog": 12.5,
+            "cog": 316.7,
+            "heading": 318.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T05:09:57+00:00"
+          }
+        ],
+        "disclaimer": "This is an investigation-priority score, not proof of responsibility. It ranks vessels by spatio-temporal and behavioural evidence only."
+      },
+      {
+        "rank": 5,
+        "mmsi": 354184000,
+        "vesselName": "MAHONI",
+        "vesselType": 70.0,
+        "score": 54.2,
+        "score_components": {
+          "spatial": 58.2,
+          "temporal": 35.6,
+          "trajectory": 80.0,
+          "behaviour": 12.0,
+          "data_quality": 100.0
+        },
+        "min_distance_km": 7.061,
+        "time_diff_hours": -7.73,
+        "trajectory_features": {
+          "min_distance_to_origin_km": 7.061,
+          "distance_at_release_km": 21.233,
+          "min_distance_time": "2021-01-31T16:16:07+00:00",
+          "time_diff_from_release_hours": -7.73,
+          "mean_speed_knots": 18.2,
+          "max_speed_knots": 18.5,
+          "course_at_min_distance": 137.8,
+          "speed_at_min_distance": 18.2,
+          "heading_changes_deg": 31.0,
+          "speed_changes_knots": 1.8,
+          "dwell_minutes_near_origin": 41.5,
+          "approach_bearing_deg": 137.4,
+          "departure_bearing_deg": 136.0,
+          "passes_within_radius": true,
+          "time_near_origin_minutes": 41.5,
+          "route_deviation_score": 0.148
+        },
+        "behaviour": {
+          "anomaly_score": 12.0,
+          "anomaly_flags": [
+            "Extended presence: 42 min near estimated origin"
+          ],
+          "svr_anomalies_in_window": 0,
+          "dbscan_cluster_label": null,
+          "dbscan_noise_points": 0,
+          "methodology": "Rule-based interpretable anomaly indicators + SVR speed anomaly detection (notebook methodology) within the window."
+        },
+        "evidence": [
+          "Trajectory passes through the estimated origin region"
+        ],
+        "filter_reasons": [
+          "Passed within 7.06 km of estimated origin during the release window"
+        ],
+        "confidence": 0.82,
+        "track": [
+          {
+            "lat": 28.62029,
+            "lon": -94.97515,
+            "sog": 17.3,
+            "cog": 137.0,
+            "heading": 136.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T16:03:14+00:00"
+          },
+          {
+            "lat": 28.61638,
+            "lon": -94.9711,
+            "sog": 17.3,
+            "cog": 138.2,
+            "heading": 137.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T16:04:20+00:00"
+          },
+          {
+            "lat": 28.61249,
+            "lon": -94.96715,
+            "sog": 17.3,
+            "cog": 138.2,
+            "heading": 137.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T16:05:25+00:00"
+          },
+          {
+            "lat": 28.609,
+            "lon": -94.96361,
+            "sog": 17.4,
+            "cog": 138.4,
+            "heading": 137.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T16:06:26+00:00"
+          },
+          {
+            "lat": 28.60502,
+            "lon": -94.95957,
+            "sog": 17.5,
+            "cog": 138.6,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T16:07:32+00:00"
+          },
+          {
+            "lat": 28.60107,
+            "lon": -94.95562,
+            "sog": 17.5,
+            "cog": 138.3,
+            "heading": 137.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T16:08:38+00:00"
+          },
+          {
+            "lat": 28.59715,
+            "lon": -94.9517,
+            "sog": 17.6,
+            "cog": 138.3,
+            "heading": 137.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T16:09:43+00:00"
+          },
+          {
+            "lat": 28.59345,
+            "lon": -94.94801,
+            "sog": 17.8,
+            "cog": 138.7,
+            "heading": 137.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T16:10:44+00:00"
+          },
+          {
+            "lat": 28.58957,
+            "lon": -94.94394,
+            "sog": 17.8,
+            "cog": 137.6,
+            "heading": 137.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T16:11:49+00:00"
+          },
+          {
+            "lat": 28.5856,
+            "lon": -94.93978,
+            "sog": 17.8,
+            "cog": 137.1,
+            "heading": 137.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T16:12:55+00:00"
+          },
+          {
+            "lat": 28.58158,
+            "lon": -94.93565,
+            "sog": 18.1,
+            "cog": 136.4,
+            "heading": 136.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T16:14:01+00:00"
+          },
+          {
+            "lat": 28.57786,
+            "lon": -94.93179,
+            "sog": 18.1,
+            "cog": 137.3,
+            "heading": 136.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T16:15:02+00:00"
+          },
+          {
+            "lat": 28.5739,
+            "lon": -94.92765,
+            "sog": 18.2,
+            "cog": 137.8,
+            "heading": 135.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T16:16:07+00:00"
+          },
+          {
+            "lat": 28.57026,
+            "lon": -94.92365,
+            "sog": 18.2,
+            "cog": 137.1,
+            "heading": 136.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T16:17:08+00:00"
+          },
+          {
+            "lat": 28.56628,
+            "lon": -94.91949,
+            "sog": 18.3,
+            "cog": 137.6,
+            "heading": 136.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T16:18:13+00:00"
+          },
+          {
+            "lat": 28.56217,
+            "lon": -94.9152,
+            "sog": 18.3,
+            "cog": 137.9,
+            "heading": 136.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T16:19:20+00:00"
+          },
+          {
+            "lat": 28.55816,
+            "lon": -94.91094,
+            "sog": 18.3,
+            "cog": 137.5,
+            "heading": 137.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T16:20:25+00:00"
+          },
+          {
+            "lat": 28.55416,
+            "lon": -94.90675,
+            "sog": 18.3,
+            "cog": 137.1,
+            "heading": 136.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T16:21:31+00:00"
+          },
+          {
+            "lat": 28.55002,
+            "lon": -94.90241,
+            "sog": 18.4,
+            "cog": 137.4,
+            "heading": 136.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T16:22:37+00:00"
+          },
+          {
+            "lat": 28.54559,
+            "lon": -94.89778,
+            "sog": 18.4,
+            "cog": 136.9,
+            "heading": 136.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T16:23:49+00:00"
+          },
+          {
+            "lat": 28.54154,
+            "lon": -94.89353,
+            "sog": 18.3,
+            "cog": 137.6,
+            "heading": 136.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T16:24:56+00:00"
+          },
+          {
+            "lat": 28.53749,
+            "lon": -94.88927,
+            "sog": 18.4,
+            "cog": 138.6,
+            "heading": 136.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T16:26:02+00:00"
+          },
+          {
+            "lat": 28.53346,
+            "lon": -94.88495,
+            "sog": 18.4,
+            "cog": 137.9,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T16:27:08+00:00"
+          },
+          {
+            "lat": 28.52928,
+            "lon": -94.88081,
+            "sog": 18.5,
+            "cog": 139.5,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T16:28:14+00:00"
+          },
+          {
+            "lat": 28.52512,
+            "lon": -94.87667,
+            "sog": 18.4,
+            "cog": 139.0,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T16:29:19+00:00"
+          },
+          {
+            "lat": 28.52091,
+            "lon": -94.87258,
+            "sog": 18.4,
+            "cog": 139.0,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T16:30:25+00:00"
+          },
+          {
+            "lat": 28.51678,
+            "lon": -94.86851,
+            "sog": 18.5,
+            "cog": 140.0,
+            "heading": 139.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T16:31:31+00:00"
+          },
+          {
+            "lat": 28.51253,
+            "lon": -94.86432,
+            "sog": 18.5,
+            "cog": 138.7,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T16:32:38+00:00"
+          },
+          {
+            "lat": 28.50831,
+            "lon": -94.86017,
+            "sog": 18.5,
+            "cog": 139.7,
+            "heading": 139.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T16:33:43+00:00"
+          },
+          {
+            "lat": 28.50416,
+            "lon": -94.85612,
+            "sog": 18.5,
+            "cog": 139.3,
+            "heading": 139.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T16:34:49+00:00"
+          },
+          {
+            "lat": 28.49991,
+            "lon": -94.85193,
+            "sog": 18.5,
+            "cog": 138.8,
+            "heading": 139.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T16:35:55+00:00"
+          },
+          {
+            "lat": 28.49572,
+            "lon": -94.84782,
+            "sog": 18.5,
+            "cog": 136.0,
+            "heading": 136.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T16:37:02+00:00"
+          },
+          {
+            "lat": 28.4917,
+            "lon": -94.84365,
+            "sog": 18.4,
+            "cog": 138.0,
+            "heading": 139.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T16:38:07+00:00"
+          },
+          {
+            "lat": 28.48744,
+            "lon": -94.83948,
+            "sog": 18.4,
+            "cog": 138.1,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T16:39:14+00:00"
+          },
+          {
+            "lat": 28.48323,
+            "lon": -94.83539,
+            "sog": 18.4,
+            "cog": 139.2,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T16:40:19+00:00"
+          },
+          {
+            "lat": 28.47903,
+            "lon": -94.83127,
+            "sog": 18.4,
+            "cog": 140.2,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T16:41:26+00:00"
+          },
+          {
+            "lat": 28.47483,
+            "lon": -94.82715,
+            "sog": 18.4,
+            "cog": 140.3,
+            "heading": 139.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T16:42:32+00:00"
+          },
+          {
+            "lat": 28.4707,
+            "lon": -94.82311,
+            "sog": 18.4,
+            "cog": 138.7,
+            "heading": 139.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T16:43:37+00:00"
+          },
+          {
+            "lat": 28.46642,
+            "lon": -94.81896,
+            "sog": 18.4,
+            "cog": 139.3,
+            "heading": 139.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T16:44:44+00:00"
+          },
+          {
+            "lat": 28.46227,
+            "lon": -94.81494,
+            "sog": 18.4,
+            "cog": 140.1,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T16:45:49+00:00"
+          },
+          {
+            "lat": 28.45808,
+            "lon": -94.81079,
+            "sog": 18.4,
+            "cog": 139.6,
+            "heading": 140.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T16:46:55+00:00"
+          },
+          {
+            "lat": 28.4538,
+            "lon": -94.80674,
+            "sog": 18.4,
+            "cog": 139.3,
+            "heading": 139.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T16:48:01+00:00"
+          },
+          {
+            "lat": 28.44959,
+            "lon": -94.80264,
+            "sog": 18.4,
+            "cog": 138.4,
+            "heading": 138.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T16:49:07+00:00"
+          },
+          {
+            "lat": 28.44538,
+            "lon": -94.79849,
+            "sog": 18.4,
+            "cog": 139.4,
+            "heading": 139.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T16:50:13+00:00"
+          },
+          {
+            "lat": 28.44118,
+            "lon": -94.79441,
+            "sog": 18.5,
+            "cog": 139.4,
+            "heading": 139.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T16:51:19+00:00"
+          },
+          {
+            "lat": 28.43696,
+            "lon": -94.79032,
+            "sog": 18.5,
+            "cog": 139.0,
+            "heading": 139.0,
+            "status": "0.0",
+            "timestamp": "2021-01-31T16:52:25+00:00"
+          }
+        ],
+        "disclaimer": "This is an investigation-priority score, not proof of responsibility. It ranks vessels by spatio-temporal and behavioural evidence only."
+      },
+      {
+        "rank": 6,
+        "mmsi": 257711000,
+        "vesselName": "HOEGH ASIA",
+        "vesselType": 70.0,
+        "score": 53.1,
+        "score_components": {
+          "spatial": 54.7,
+          "temporal": 30.6,
+          "trajectory": 80.0,
+          "behaviour": 20.0,
+          "data_quality": 100.0
+        },
+        "min_distance_km": 7.645,
+        "time_diff_hours": -8.33,
+        "trajectory_features": {
+          "min_distance_to_origin_km": 7.645,
+          "distance_at_release_km": 22.26,
+          "min_distance_time": "2021-01-31T15:40:29+00:00",
+          "time_diff_from_release_hours": -8.33,
+          "mean_speed_knots": 15.92,
+          "max_speed_knots": 16.2,
+          "course_at_min_distance": 138.1,
+          "speed_at_min_distance": 16.1,
+          "heading_changes_deg": 86.0,
+          "speed_changes_knots": 3.6,
+          "dwell_minutes_near_origin": 44.7,
+          "approach_bearing_deg": 137.1,
+          "departure_bearing_deg": 136.7,
+          "passes_within_radius": true,
+          "time_near_origin_minutes": 44.7,
+          "route_deviation_score": 0.172
+        },
+        "behaviour": {
+          "anomaly_score": 20.0,
+          "anomaly_flags": [
+            "Extended presence: 45 min near estimated origin"
+          ],
+          "svr_anomalies_in_window": 0,
+          "dbscan_cluster_label": null,
+          "dbscan_noise_points": 0,
+          "methodology": "Rule-based interpretable anomaly indicators + SVR speed anomaly detection (notebook methodology) within the window."
+        },
+        "evidence": [
+          "Trajectory passes through the estimated origin region"
+        ],
+        "filter_reasons": [
+          "Passed within 7.64 km of estimated origin during the release window"
+        ],
+        "confidence": 0.81,
+        "track": [
+          {
+            "lat": 28.61943,
+            "lon": -94.96789,
+            "sog": 16.0,
+            "cog": 137.3,
+            "heading": 137.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T15:27:58+00:00"
+          },
+          {
+            "lat": 28.61558,
+            "lon": -94.96372,
+            "sog": 15.9,
+            "cog": 136.9,
+            "heading": 137.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T15:29:10+00:00"
+          },
+          {
+            "lat": 28.61177,
+            "lon": -94.95982,
+            "sog": 16.0,
+            "cog": 138.1,
+            "heading": 138.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T15:30:19+00:00"
+          },
+          {
+            "lat": 28.60807,
+            "lon": -94.95581,
+            "sog": 15.9,
+            "cog": 135.2,
+            "heading": 135.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T15:31:28+00:00"
+          },
+          {
+            "lat": 28.60486,
+            "lon": -94.95233,
+            "sog": 16.0,
+            "cog": 137.7,
+            "heading": 139.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T15:32:29+00:00"
+          },
+          {
+            "lat": 28.60104,
+            "lon": -94.94832,
+            "sog": 16.0,
+            "cog": 136.1,
+            "heading": 135.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T15:33:38+00:00"
+          },
+          {
+            "lat": 28.59784,
+            "lon": -94.94484,
+            "sog": 16.0,
+            "cog": 137.3,
+            "heading": 138.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T15:34:39+00:00"
+          },
+          {
+            "lat": 28.59397,
+            "lon": -94.94087,
+            "sog": 16.1,
+            "cog": 137.6,
+            "heading": 138.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T15:35:49+00:00"
+          },
+          {
+            "lat": 28.59021,
+            "lon": -94.93679,
+            "sog": 16.1,
+            "cog": 135.9,
+            "heading": 136.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T15:36:59+00:00"
+          },
+          {
+            "lat": 28.58636,
+            "lon": -94.9328,
+            "sog": 16.1,
+            "cog": 138.6,
+            "heading": 139.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T15:38:08+00:00"
+          },
+          {
+            "lat": 28.58258,
+            "lon": -94.92874,
+            "sog": 16.0,
+            "cog": 135.6,
+            "heading": 135.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T15:39:18+00:00"
+          },
+          {
+            "lat": 28.57877,
+            "lon": -94.92471,
+            "sog": 16.1,
+            "cog": 138.1,
+            "heading": 139.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T15:40:29+00:00"
+          },
+          {
+            "lat": 28.57497,
+            "lon": -94.92063,
+            "sog": 16.0,
+            "cog": 135.5,
+            "heading": 135.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T15:41:38+00:00"
+          },
+          {
+            "lat": 28.57113,
+            "lon": -94.91656,
+            "sog": 16.1,
+            "cog": 137.9,
+            "heading": 139.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T15:42:49+00:00"
+          },
+          {
+            "lat": 28.56735,
+            "lon": -94.91248,
+            "sog": 16.0,
+            "cog": 135.2,
+            "heading": 135.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T15:44:00+00:00"
+          },
+          {
+            "lat": 28.56366,
+            "lon": -94.9084,
+            "sog": 16.0,
+            "cog": 136.9,
+            "heading": 138.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T15:45:09+00:00"
+          },
+          {
+            "lat": 28.55971,
+            "lon": -94.9044,
+            "sog": 16.1,
+            "cog": 138.4,
+            "heading": 139.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T15:46:19+00:00"
+          },
+          {
+            "lat": 28.55589,
+            "lon": -94.90053,
+            "sog": 16.1,
+            "cog": 138.0,
+            "heading": 139.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T15:47:29+00:00"
+          },
+          {
+            "lat": 28.55188,
+            "lon": -94.89655,
+            "sog": 16.2,
+            "cog": 140.0,
+            "heading": 141.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T15:48:39+00:00"
+          },
+          {
+            "lat": 28.54851,
+            "lon": -94.89322,
+            "sog": 16.1,
+            "cog": 137.8,
+            "heading": 138.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T15:49:40+00:00"
+          },
+          {
+            "lat": 28.54453,
+            "lon": -94.88922,
+            "sog": 16.1,
+            "cog": 139.6,
+            "heading": 141.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T15:50:50+00:00"
+          },
+          {
+            "lat": 28.54069,
+            "lon": -94.88536,
+            "sog": 16.0,
+            "cog": 137.0,
+            "heading": 137.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T15:51:59+00:00"
+          },
+          {
+            "lat": 28.53687,
+            "lon": -94.88139,
+            "sog": 16.0,
+            "cog": 139.0,
+            "heading": 141.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T15:53:09+00:00"
+          },
+          {
+            "lat": 28.53301,
+            "lon": -94.87756,
+            "sog": 16.1,
+            "cog": 137.7,
+            "heading": 138.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T15:54:19+00:00"
+          },
+          {
+            "lat": 28.52916,
+            "lon": -94.87359,
+            "sog": 16.1,
+            "cog": 138.9,
+            "heading": 140.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T15:55:29+00:00"
+          },
+          {
+            "lat": 28.52516,
+            "lon": -94.86963,
+            "sog": 16.1,
+            "cog": 137.7,
+            "heading": 138.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T15:56:39+00:00"
+          },
+          {
+            "lat": 28.52135,
+            "lon": -94.86572,
+            "sog": 16.1,
+            "cog": 139.1,
+            "heading": 140.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T15:57:48+00:00"
+          },
+          {
+            "lat": 28.51734,
+            "lon": -94.86176,
+            "sog": 16.1,
+            "cog": 138.0,
+            "heading": 138.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T15:58:59+00:00"
+          },
+          {
+            "lat": 28.51404,
+            "lon": -94.85835,
+            "sog": 16.1,
+            "cog": 138.4,
+            "heading": 140.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T15:59:59+00:00"
+          },
+          {
+            "lat": 28.50684,
+            "lon": -94.8511,
+            "sog": 16.1,
+            "cog": 137.4,
+            "heading": 138.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T16:02:08+00:00"
+          },
+          {
+            "lat": 28.50288,
+            "lon": -94.84718,
+            "sog": 16.2,
+            "cog": 139.3,
+            "heading": 140.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T16:03:19+00:00"
+          },
+          {
+            "lat": 28.49898,
+            "lon": -94.84317,
+            "sog": 16.1,
+            "cog": 137.4,
+            "heading": 138.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T16:04:29+00:00"
+          },
+          {
+            "lat": 28.49512,
+            "lon": -94.83932,
+            "sog": 16.2,
+            "cog": 139.7,
+            "heading": 141.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T16:05:39+00:00"
+          },
+          {
+            "lat": 28.49118,
+            "lon": -94.83538,
+            "sog": 16.1,
+            "cog": 137.3,
+            "heading": 137.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T16:06:48+00:00"
+          },
+          {
+            "lat": 28.48733,
+            "lon": -94.83143,
+            "sog": 16.1,
+            "cog": 139.3,
+            "heading": 141.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T16:07:59+00:00"
+          },
+          {
+            "lat": 28.48328,
+            "lon": -94.82753,
+            "sog": 16.2,
+            "cog": 138.7,
+            "heading": 138.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T16:09:09+00:00"
+          },
+          {
+            "lat": 28.4795,
+            "lon": -94.82359,
+            "sog": 16.1,
+            "cog": 136.8,
+            "heading": 137.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T16:10:19+00:00"
+          },
+          {
+            "lat": 28.47493,
+            "lon": -94.81907,
+            "sog": 16.2,
+            "cog": 140.2,
+            "heading": 141.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T16:11:39+00:00"
+          },
+          {
+            "lat": 28.47156,
+            "lon": -94.81571,
+            "sog": 16.0,
+            "cog": 137.8,
+            "heading": 138.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T16:12:40+00:00"
+          },
+          {
+            "lat": 28.46775,
+            "lon": -94.8119,
+            "sog": 15.9,
+            "cog": 139.8,
+            "heading": 141.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T16:13:48+00:00"
+          },
+          {
+            "lat": 28.46385,
+            "lon": -94.80802,
+            "sog": 15.7,
+            "cog": 137.6,
+            "heading": 137.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T16:14:59+00:00"
+          },
+          {
+            "lat": 28.46013,
+            "lon": -94.80412,
+            "sog": 15.6,
+            "cog": 138.4,
+            "heading": 140.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T16:16:09+00:00"
+          },
+          {
+            "lat": 28.45629,
+            "lon": -94.80043,
+            "sog": 15.5,
+            "cog": 139.0,
+            "heading": 139.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T16:17:19+00:00"
+          },
+          {
+            "lat": 28.45308,
+            "lon": -94.79713,
+            "sog": 15.3,
+            "cog": 138.0,
+            "heading": 138.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T16:18:20+00:00"
+          },
+          {
+            "lat": 28.44938,
+            "lon": -94.79353,
+            "sog": 15.3,
+            "cog": 139.9,
+            "heading": 140.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T16:19:29+00:00"
+          },
+          {
+            "lat": 28.44571,
+            "lon": -94.78979,
+            "sog": 15.1,
+            "cog": 137.0,
+            "heading": 137.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T16:20:39+00:00"
+          },
+          {
+            "lat": 28.44211,
+            "lon": -94.78617,
+            "sog": 15.0,
+            "cog": 139.9,
+            "heading": 141.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T16:21:49+00:00"
+          },
+          {
+            "lat": 28.43883,
+            "lon": -94.78298,
+            "sog": 14.9,
+            "cog": 137.9,
+            "heading": 138.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T16:22:50+00:00"
+          },
+          {
+            "lat": 28.4353,
+            "lon": -94.77938,
+            "sog": 14.8,
+            "cog": 139.3,
+            "heading": 140.0,
+            "status": "5.0",
+            "timestamp": "2021-01-31T16:23:59+00:00"
+          }
+        ],
+        "disclaimer": "This is an investigation-priority score, not proof of responsibility. It ranks vessels by spatio-temporal and behavioural evidence only."
+      },
+      {
+        "rank": 7,
+        "mmsi": 229673000,
+        "vesselName": "COOL RUNNER",
+        "vesselType": 80.0,
+        "score": 51.5,
+        "score_components": {
+          "spatial": 53.7,
+          "temporal": 22.4,
+          "trajectory": 80.0,
+          "behaviour": 25.0,
+          "data_quality": 100.0
+        },
+        "min_distance_km": 7.817,
+        "time_diff_hours": 9.31,
+        "trajectory_features": {
+          "min_distance_to_origin_km": 7.817,
+          "distance_at_release_km": 22.621,
+          "min_distance_time": "2021-02-01T09:18:47+00:00",
+          "time_diff_from_release_hours": 9.31,
+          "mean_speed_knots": 11.11,
+          "max_speed_knots": 11.4,
+          "course_at_min_distance": 318.3,
+          "speed_at_min_distance": 10.9,
+          "heading_changes_deg": 30.2,
+          "speed_changes_knots": 1.0,
+          "dwell_minutes_near_origin": 63.0,
+          "approach_bearing_deg": 318.4,
+          "departure_bearing_deg": 318.1,
+          "passes_within_radius": true,
+          "time_near_origin_minutes": 63.0,
+          "route_deviation_score": 0.179
+        },
+        "behaviour": {
+          "anomaly_score": 25.0,
+          "anomaly_flags": [
+            "Unusual dwell: 63 min near estimated origin"
+          ],
+          "svr_anomalies_in_window": 0,
+          "dbscan_cluster_label": null,
+          "dbscan_noise_points": 0,
+          "methodology": "Rule-based interpretable anomaly indicators + SVR speed anomaly detection (notebook methodology) within the window."
+        },
+        "evidence": [
+          "Trajectory passes through the estimated origin region"
+        ],
+        "filter_reasons": [
+          "Passed within 7.82 km of estimated origin during the release window"
+        ],
+        "confidence": 0.81,
+        "track": [
+          {
+            "lat": 28.43402,
+            "lon": -94.77596,
+            "sog": 11.1,
+            "cog": 317.5,
+            "heading": 320.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T08:17:19+00:00"
+          },
+          {
+            "lat": 28.43667,
+            "lon": -94.7787,
+            "sog": 11.1,
+            "cog": 317.6,
+            "heading": 320.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T08:18:28+00:00"
+          },
+          {
+            "lat": 28.43932,
+            "lon": -94.78149,
+            "sog": 11.1,
+            "cog": 316.2,
+            "heading": 320.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T08:19:38+00:00"
+          },
+          {
+            "lat": 28.44199,
+            "lon": -94.78428,
+            "sog": 11.1,
+            "cog": 317.5,
+            "heading": 321.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T08:20:47+00:00"
+          },
+          {
+            "lat": 28.44468,
+            "lon": -94.78706,
+            "sog": 11.1,
+            "cog": 318.2,
+            "heading": 321.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T08:21:58+00:00"
+          },
+          {
+            "lat": 28.44746,
+            "lon": -94.78981,
+            "sog": 11.2,
+            "cog": 318.6,
+            "heading": 321.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T08:23:08+00:00"
+          },
+          {
+            "lat": 28.45021,
+            "lon": -94.79256,
+            "sog": 11.2,
+            "cog": 318.9,
+            "heading": 321.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T08:24:19+00:00"
+          },
+          {
+            "lat": 28.45294,
+            "lon": -94.79525,
+            "sog": 11.2,
+            "cog": 318.8,
+            "heading": 320.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T08:25:27+00:00"
+          },
+          {
+            "lat": 28.45528,
+            "lon": -94.79763,
+            "sog": 11.2,
+            "cog": 318.3,
+            "heading": 320.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T08:26:28+00:00"
+          },
+          {
+            "lat": 28.45806,
+            "lon": -94.8004,
+            "sog": 11.2,
+            "cog": 318.4,
+            "heading": 320.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T08:27:39+00:00"
+          },
+          {
+            "lat": 28.4608,
+            "lon": -94.80317,
+            "sog": 11.2,
+            "cog": 317.6,
+            "heading": 320.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T08:28:49+00:00"
+          },
+          {
+            "lat": 28.46344,
+            "lon": -94.80593,
+            "sog": 11.2,
+            "cog": 317.5,
+            "heading": 320.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T08:29:58+00:00"
+          },
+          {
+            "lat": 28.46617,
+            "lon": -94.80871,
+            "sog": 11.2,
+            "cog": 317.9,
+            "heading": 320.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T08:31:07+00:00"
+          },
+          {
+            "lat": 28.46845,
+            "lon": -94.81113,
+            "sog": 11.2,
+            "cog": 317.1,
+            "heading": 320.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T08:32:08+00:00"
+          },
+          {
+            "lat": 28.47118,
+            "lon": -94.81391,
+            "sog": 11.2,
+            "cog": 318.4,
+            "heading": 321.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T08:33:17+00:00"
+          },
+          {
+            "lat": 28.47397,
+            "lon": -94.81666,
+            "sog": 11.2,
+            "cog": 319.1,
+            "heading": 321.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T08:34:28+00:00"
+          },
+          {
+            "lat": 28.47672,
+            "lon": -94.81939,
+            "sog": 11.2,
+            "cog": 318.4,
+            "heading": 320.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T08:35:39+00:00"
+          },
+          {
+            "lat": 28.47946,
+            "lon": -94.82216,
+            "sog": 11.2,
+            "cog": 318.6,
+            "heading": 320.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T08:36:48+00:00"
+          },
+          {
+            "lat": 28.48218,
+            "lon": -94.8249,
+            "sog": 11.2,
+            "cog": 318.8,
+            "heading": 320.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T08:37:59+00:00"
+          },
+          {
+            "lat": 28.48495,
+            "lon": -94.82763,
+            "sog": 11.2,
+            "cog": 318.2,
+            "heading": 320.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T08:39:09+00:00"
+          },
+          {
+            "lat": 28.48773,
+            "lon": -94.83039,
+            "sog": 11.3,
+            "cog": 319.0,
+            "heading": 321.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T08:40:19+00:00"
+          },
+          {
+            "lat": 28.49049,
+            "lon": -94.83313,
+            "sog": 11.2,
+            "cog": 318.7,
+            "heading": 320.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T08:41:28+00:00"
+          },
+          {
+            "lat": 28.49329,
+            "lon": -94.83593,
+            "sog": 11.2,
+            "cog": 318.3,
+            "heading": 320.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T08:42:39+00:00"
+          },
+          {
+            "lat": 28.49597,
+            "lon": -94.83864,
+            "sog": 11.2,
+            "cog": 318.2,
+            "heading": 320.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T08:43:48+00:00"
+          },
+          {
+            "lat": 28.49877,
+            "lon": -94.8414,
+            "sog": 11.2,
+            "cog": 318.5,
+            "heading": 320.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T08:44:59+00:00"
+          },
+          {
+            "lat": 28.50148,
+            "lon": -94.8441,
+            "sog": 11.2,
+            "cog": 318.7,
+            "heading": 321.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T08:46:07+00:00"
+          },
+          {
+            "lat": 28.50426,
+            "lon": -94.84688,
+            "sog": 11.2,
+            "cog": 318.5,
+            "heading": 320.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T08:47:19+00:00"
+          },
+          {
+            "lat": 28.50701,
+            "lon": -94.84963,
+            "sog": 11.2,
+            "cog": 318.7,
+            "heading": 321.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T08:48:29+00:00"
+          },
+          {
+            "lat": 28.51014,
+            "lon": -94.85271,
+            "sog": 11.2,
+            "cog": 319.2,
+            "heading": 321.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T08:49:48+00:00"
+          },
+          {
+            "lat": 28.51293,
+            "lon": -94.85544,
+            "sog": 11.2,
+            "cog": 318.8,
+            "heading": 320.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T08:50:58+00:00"
+          },
+          {
+            "lat": 28.51575,
+            "lon": -94.85831,
+            "sog": 11.2,
+            "cog": 318.2,
+            "heading": 320.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T08:52:09+00:00"
+          },
+          {
+            "lat": 28.51841,
+            "lon": -94.861,
+            "sog": 11.2,
+            "cog": 317.7,
+            "heading": 319.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T08:53:17+00:00"
+          },
+          {
+            "lat": 28.52112,
+            "lon": -94.8638,
+            "sog": 11.2,
+            "cog": 317.0,
+            "heading": 320.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T08:54:28+00:00"
+          },
+          {
+            "lat": 28.52391,
+            "lon": -94.86663,
+            "sog": 11.2,
+            "cog": 318.5,
+            "heading": 320.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T08:55:38+00:00"
+          },
+          {
+            "lat": 28.52663,
+            "lon": -94.86936,
+            "sog": 11.2,
+            "cog": 318.7,
+            "heading": 319.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T08:56:48+00:00"
+          },
+          {
+            "lat": 28.52943,
+            "lon": -94.87219,
+            "sog": 11.3,
+            "cog": 317.5,
+            "heading": 319.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T08:57:59+00:00"
+          },
+          {
+            "lat": 28.53212,
+            "lon": -94.87494,
+            "sog": 11.3,
+            "cog": 318.1,
+            "heading": 319.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T08:59:07+00:00"
+          },
+          {
+            "lat": 28.53448,
+            "lon": -94.87734,
+            "sog": 11.3,
+            "cog": 317.9,
+            "heading": 319.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T09:00:07+00:00"
+          },
+          {
+            "lat": 28.5372,
+            "lon": -94.88017,
+            "sog": 11.3,
+            "cog": 318.0,
+            "heading": 320.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T09:01:17+00:00"
+          },
+          {
+            "lat": 28.54,
+            "lon": -94.88298,
+            "sog": 11.3,
+            "cog": 318.7,
+            "heading": 319.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T09:02:29+00:00"
+          },
+          {
+            "lat": 28.54274,
+            "lon": -94.88573,
+            "sog": 11.3,
+            "cog": 318.5,
+            "heading": 319.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T09:03:38+00:00"
+          },
+          {
+            "lat": 28.54559,
+            "lon": -94.88859,
+            "sog": 11.3,
+            "cog": 317.9,
+            "heading": 319.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T09:04:49+00:00"
+          },
+          {
+            "lat": 28.54829,
+            "lon": -94.89135,
+            "sog": 11.4,
+            "cog": 317.8,
+            "heading": 319.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T09:05:58+00:00"
+          },
+          {
+            "lat": 28.55109,
+            "lon": -94.89423,
+            "sog": 11.4,
+            "cog": 317.7,
+            "heading": 319.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T09:07:08+00:00"
+          },
+          {
+            "lat": 28.55379,
+            "lon": -94.89702,
+            "sog": 11.3,
+            "cog": 318.0,
+            "heading": 320.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T09:08:17+00:00"
+          },
+          {
+            "lat": 28.55655,
+            "lon": -94.89981,
+            "sog": 11.1,
+            "cog": 318.7,
+            "heading": 320.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T09:09:29+00:00"
+          },
+          {
+            "lat": 28.55925,
+            "lon": -94.90245,
+            "sog": 11.1,
+            "cog": 318.6,
+            "heading": 319.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T09:10:37+00:00"
+          },
+          {
+            "lat": 28.56204,
+            "lon": -94.90525,
+            "sog": 11.0,
+            "cog": 318.0,
+            "heading": 319.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T09:11:49+00:00"
+          },
+          {
+            "lat": 28.56467,
+            "lon": -94.90791,
+            "sog": 11.0,
+            "cog": 318.1,
+            "heading": 319.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T09:12:58+00:00"
+          },
+          {
+            "lat": 28.56737,
+            "lon": -94.91063,
+            "sog": 11.0,
+            "cog": 318.1,
+            "heading": 319.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T09:14:09+00:00"
+          },
+          {
+            "lat": 28.57004,
+            "lon": -94.91334,
+            "sog": 10.9,
+            "cog": 318.3,
+            "heading": 319.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T09:15:18+00:00"
+          },
+          {
+            "lat": 28.57266,
+            "lon": -94.916,
+            "sog": 10.9,
+            "cog": 318.4,
+            "heading": 319.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T09:16:28+00:00"
+          },
+          {
+            "lat": 28.57532,
+            "lon": -94.9187,
+            "sog": 10.9,
+            "cog": 317.9,
+            "heading": 319.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T09:17:38+00:00"
+          },
+          {
+            "lat": 28.57799,
+            "lon": -94.9214,
+            "sog": 10.9,
+            "cog": 318.3,
+            "heading": 319.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T09:18:47+00:00"
+          },
+          {
+            "lat": 28.5807,
+            "lon": -94.92417,
+            "sog": 10.9,
+            "cog": 317.9,
+            "heading": 319.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T09:19:59+00:00"
+          },
+          {
+            "lat": 28.58333,
+            "lon": -94.92685,
+            "sog": 10.9,
+            "cog": 317.9,
+            "heading": 320.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T09:21:09+00:00"
+          },
+          {
+            "lat": 28.58607,
+            "lon": -94.92956,
+            "sog": 10.9,
+            "cog": 319.0,
+            "heading": 320.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T09:22:19+00:00"
+          },
+          {
+            "lat": 28.58871,
+            "lon": -94.93218,
+            "sog": 10.9,
+            "cog": 318.5,
+            "heading": 320.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T09:23:29+00:00"
+          },
+          {
+            "lat": 28.59138,
+            "lon": -94.93485,
+            "sog": 10.9,
+            "cog": 318.6,
+            "heading": 319.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T09:24:39+00:00"
+          },
+          {
+            "lat": 28.59396,
+            "lon": -94.93753,
+            "sog": 10.9,
+            "cog": 316.2,
+            "heading": 318.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T09:25:47+00:00"
+          },
+          {
+            "lat": 28.59656,
+            "lon": -94.94034,
+            "sog": 10.9,
+            "cog": 316.2,
+            "heading": 318.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T09:26:58+00:00"
+          },
+          {
+            "lat": 28.59909,
+            "lon": -94.94309,
+            "sog": 10.9,
+            "cog": 316.4,
+            "heading": 318.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T09:28:07+00:00"
+          },
+          {
+            "lat": 28.60166,
+            "lon": -94.94585,
+            "sog": 10.9,
+            "cog": 316.3,
+            "heading": 318.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T09:29:18+00:00"
+          },
+          {
+            "lat": 28.60428,
+            "lon": -94.94864,
+            "sog": 10.9,
+            "cog": 316.5,
+            "heading": 318.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T09:30:29+00:00"
+          },
+          {
+            "lat": 28.60683,
+            "lon": -94.95137,
+            "sog": 10.9,
+            "cog": 316.8,
+            "heading": 318.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T09:31:37+00:00"
+          },
+          {
+            "lat": 28.60948,
+            "lon": -94.95417,
+            "sog": 10.9,
+            "cog": 316.9,
+            "heading": 318.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T09:32:48+00:00"
+          },
+          {
+            "lat": 28.61206,
+            "lon": -94.9569,
+            "sog": 10.9,
+            "cog": 316.8,
+            "heading": 318.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T09:33:57+00:00"
+          },
+          {
+            "lat": 28.61466,
+            "lon": -94.95971,
+            "sog": 10.9,
+            "cog": 316.5,
+            "heading": 318.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T09:35:08+00:00"
+          },
+          {
+            "lat": 28.61722,
+            "lon": -94.96248,
+            "sog": 10.9,
+            "cog": 316.5,
+            "heading": 317.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T09:36:18+00:00"
+          },
+          {
+            "lat": 28.61985,
+            "lon": -94.96529,
+            "sog": 10.9,
+            "cog": 316.5,
+            "heading": 318.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T09:37:28+00:00"
+          }
+        ],
+        "disclaimer": "This is an investigation-priority score, not proof of responsibility. It ranks vessels by spatio-temporal and behavioural evidence only."
+      },
+      {
+        "rank": 8,
+        "mmsi": 368230000,
+        "vesselName": "ODYSSEA GOLD",
+        "vesselType": 90.0,
+        "score": 40.1,
+        "score_components": {
+          "spatial": 5.4,
+          "temporal": 13.0,
+          "trajectory": 100.0,
+          "behaviour": 35.0,
+          "data_quality": 100.0
+        },
+        "min_distance_km": 15.973,
+        "time_diff_hours": 10.44,
+        "trajectory_features": {
+          "min_distance_to_origin_km": 15.973,
+          "distance_at_release_km": 17.49,
+          "min_distance_time": "2021-02-01T10:26:27+00:00",
+          "time_diff_from_release_hours": 10.44,
+          "mean_speed_knots": 9.37,
+          "max_speed_knots": 9.6,
+          "course_at_min_distance": 346.0,
+          "speed_at_min_distance": 9.0,
+          "heading_changes_deg": 23.8,
+          "speed_changes_knots": 5.0,
+          "dwell_minutes_near_origin": 31.2,
+          "approach_bearing_deg": 346.2,
+          "departure_bearing_deg": 344.9,
+          "passes_within_radius": true,
+          "time_near_origin_minutes": 31.2,
+          "route_deviation_score": 1.0
+        },
+        "behaviour": {
+          "anomaly_score": 35.0,
+          "anomaly_flags": [
+            "Extended presence: 31 min near estimated origin",
+            "Route deviation: vessel track bends toward the estimated origin"
+          ],
+          "svr_anomalies_in_window": 0,
+          "dbscan_cluster_label": null,
+          "dbscan_noise_points": 0,
+          "methodology": "Rule-based interpretable anomaly indicators + SVR speed anomaly detection (notebook methodology) within the window."
+        },
+        "evidence": [
+          "Trajectory passes through the estimated origin region"
+        ],
+        "filter_reasons": [
+          "Passed within 15.97 km of estimated origin during the release window"
+        ],
+        "confidence": 0.76,
+        "track": [
+          {
+            "lat": 28.43312,
+            "lon": -95.12088,
+            "sog": 9.3,
+            "cog": 346.5,
+            "heading": 348.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T10:02:27+00:00"
+          },
+          {
+            "lat": 28.43599,
+            "lon": -95.12168,
+            "sog": 9.3,
+            "cog": 346.4,
+            "heading": 348.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T10:03:36+00:00"
+          },
+          {
+            "lat": 28.43898,
+            "lon": -95.12251,
+            "sog": 9.5,
+            "cog": 345.7,
+            "heading": 348.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T10:04:46+00:00"
+          },
+          {
+            "lat": 28.44191,
+            "lon": -95.12335,
+            "sog": 9.3,
+            "cog": 345.5,
+            "heading": 348.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T10:05:56+00:00"
+          },
+          {
+            "lat": 28.44447,
+            "lon": -95.12406,
+            "sog": 9.4,
+            "cog": 347.0,
+            "heading": 348.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T10:06:57+00:00"
+          },
+          {
+            "lat": 28.44744,
+            "lon": -95.12493,
+            "sog": 9.5,
+            "cog": 345.8,
+            "heading": 348.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T10:08:06+00:00"
+          },
+          {
+            "lat": 28.45081,
+            "lon": -95.12595,
+            "sog": 9.3,
+            "cog": 345.1,
+            "heading": 348.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T10:09:27+00:00"
+          },
+          {
+            "lat": 28.45369,
+            "lon": -95.12678,
+            "sog": 9.3,
+            "cog": 345.3,
+            "heading": 347.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T10:10:36+00:00"
+          },
+          {
+            "lat": 28.45705,
+            "lon": -95.12776,
+            "sog": 9.3,
+            "cog": 347.0,
+            "heading": 347.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T10:11:56+00:00"
+          },
+          {
+            "lat": 28.46003,
+            "lon": -95.12857,
+            "sog": 9.6,
+            "cog": 346.3,
+            "heading": 348.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T10:13:05+00:00"
+          },
+          {
+            "lat": 28.46267,
+            "lon": -95.1293,
+            "sog": 9.5,
+            "cog": 346.0,
+            "heading": 348.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T10:14:06+00:00"
+          },
+          {
+            "lat": 28.46568,
+            "lon": -95.13021,
+            "sog": 9.1,
+            "cog": 345.2,
+            "heading": 348.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T10:15:17+00:00"
+          },
+          {
+            "lat": 28.46861,
+            "lon": -95.131,
+            "sog": 9.4,
+            "cog": 346.2,
+            "heading": 348.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T10:16:27+00:00"
+          },
+          {
+            "lat": 28.47166,
+            "lon": -95.13184,
+            "sog": 9.6,
+            "cog": 347.1,
+            "heading": 348.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T10:17:37+00:00"
+          },
+          {
+            "lat": 28.47599,
+            "lon": -95.13305,
+            "sog": 9.3,
+            "cog": 345.7,
+            "heading": 348.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T10:19:17+00:00"
+          },
+          {
+            "lat": 28.47891,
+            "lon": -95.13388,
+            "sog": 9.6,
+            "cog": 346.3,
+            "heading": 347.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T10:20:27+00:00"
+          },
+          {
+            "lat": 28.48179,
+            "lon": -95.13474,
+            "sog": 9.2,
+            "cog": 345.9,
+            "heading": 348.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T10:21:36+00:00"
+          },
+          {
+            "lat": 28.48478,
+            "lon": -95.13559,
+            "sog": 9.2,
+            "cog": 345.1,
+            "heading": 348.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T10:22:46+00:00"
+          },
+          {
+            "lat": 28.48774,
+            "lon": -95.13644,
+            "sog": 9.4,
+            "cog": 345.3,
+            "heading": 348.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T10:23:57+00:00"
+          },
+          {
+            "lat": 28.49063,
+            "lon": -95.13727,
+            "sog": 9.5,
+            "cog": 345.9,
+            "heading": 348.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T10:25:06+00:00"
+          },
+          {
+            "lat": 28.49409,
+            "lon": -95.13824,
+            "sog": 9.0,
+            "cog": 346.0,
+            "heading": 347.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T10:26:27+00:00"
+          },
+          {
+            "lat": 28.4969,
+            "lon": -95.1391,
+            "sog": 9.1,
+            "cog": 346.6,
+            "heading": 348.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T10:27:37+00:00"
+          },
+          {
+            "lat": 28.49986,
+            "lon": -95.1399,
+            "sog": 9.4,
+            "cog": 347.6,
+            "heading": 348.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T10:28:46+00:00"
+          },
+          {
+            "lat": 28.50293,
+            "lon": -95.14073,
+            "sog": 9.4,
+            "cog": 346.8,
+            "heading": 348.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T10:29:57+00:00"
+          },
+          {
+            "lat": 28.50588,
+            "lon": -95.14155,
+            "sog": 9.3,
+            "cog": 344.8,
+            "heading": 348.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T10:31:06+00:00"
+          },
+          {
+            "lat": 28.50885,
+            "lon": -95.14238,
+            "sog": 9.4,
+            "cog": 346.3,
+            "heading": 348.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T10:32:16+00:00"
+          },
+          {
+            "lat": 28.51172,
+            "lon": -95.14326,
+            "sog": 9.3,
+            "cog": 346.1,
+            "heading": 348.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T10:33:26+00:00"
+          },
+          {
+            "lat": 28.51474,
+            "lon": -95.14411,
+            "sog": 9.4,
+            "cog": 345.7,
+            "heading": 348.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T10:34:37+00:00"
+          },
+          {
+            "lat": 28.51816,
+            "lon": -95.14508,
+            "sog": 9.4,
+            "cog": 346.6,
+            "heading": 348.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T10:35:56+00:00"
+          },
+          {
+            "lat": 28.52112,
+            "lon": -95.14587,
+            "sog": 9.5,
+            "cog": 346.2,
+            "heading": 348.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T10:37:05+00:00"
+          },
+          {
+            "lat": 28.52372,
+            "lon": -95.14656,
+            "sog": 9.6,
+            "cog": 347.0,
+            "heading": 348.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T10:38:06+00:00"
+          },
+          {
+            "lat": 28.52681,
+            "lon": -95.14742,
+            "sog": 9.5,
+            "cog": 345.9,
+            "heading": 348.0,
+            "status": "0.0",
+            "timestamp": "2021-02-01T10:39:17+00:00"
+          }
+        ],
+        "disclaimer": "This is an investigation-priority score, not proof of responsibility. It ranks vessels by spatio-temporal and behavioural evidence only."
+      }
+    ],
+    "excluded": [],
+    "origin": {
+      "lat": 28.53009,
+      "lon": -94.97998,
+      "release_time": "2021-02-01T00:00:00+00:00",
+      "radius_km": 15.0,
+      "window_hours": 12.0,
+      "uncertainty_km": 1.88
+    },
+    "search_parameters": {
+      "radius_km": 15.0,
+      "window_hours": 12.0,
+      "min_observations": 3
+    },
+    "weights_used": {
+      "spatial": 0.3,
+      "temporal": 0.25,
+      "trajectory": 0.2,
+      "behaviour": 0.15,
+      "data_quality": 0.1
+    },
+    "methodology": "1) Spatio-temporal candidate search around the ESTIMATED ORIGIN (not the observed slick position): vessels with AIS pings inside radius 17 km within \u00b112 h of the estimated release time. 2) Explainable filtering (distance, data sufficiency, physical reachability). 3) Trajectory feature extraction (closest approach, dwell, course/speed changes, route deviation). 4) Behaviour anomaly (interpretable rules + notebook SVR). 5) Weighted transparent scoring with configurable weights.",
+    "disclaimer": "This is an investigation-priority score, not proof of responsibility. It ranks vessels by spatio-temporal and behavioural evidence only.",
+    "source_label": {
+      "dataClass": "model",
+      "description": "Attribution computed over REAL AIS records in the repository dataset. The origin itself is a hindcast estimate; treat all scores as investigation priorities, not proof."
+    }
+  },
+  "timeline": [
+    {
+      "event": "SAR Detection",
+      "status": "completed",
+      "description": "detected=True, confidence=0.965 (HistGradientBoostingClassifier texture-classifier (trained))"
+    },
+    {
+      "event": "Slick Characterization",
+      "status": "completed",
+      "description": "Weak, explainable segmentation based on adaptive thresholding of low-texture darker regions. NOT a trained segmentation "
+    },
+    {
+      "event": "Environmental Data",
+      "status": "completed",
+      "description": "provider=demo-synthetic (synthetic), 19 samples"
+    },
+    {
+      "event": "Hindcast",
+      "status": "completed",
+      "description": "origin=(28.5301,-94.9800) \u00b11.88 km"
+    },
+    {
+      "event": "Forecast",
+      "status": "completed",
+      "description": "1.849 km over 6.0 h"
+    },
+    {
+      "event": "AIS Attribution",
+      "status": "completed",
+      "description": "8 candidates, top score 69.8"
+    }
+  ],
+  "disclaimers": [
+    "SAR image is not georeferenced; spill location anchored SYNTHETICALLY inside the real AIS dataset coverage area (Gulf of Mexico) for demonstration.",
+    "Hindcast origin is an ESTIMATE; the spill age cannot be determined from the image.",
+    "This is an investigation-priority score, not proof of responsibility. It ranks vessels by spatio-temporal and behavioural evidence only.",
+    "Environmental forcing is SYNTHETIC (demo mode) \u2014 drift results are illustrative only."
+  ]
+}
